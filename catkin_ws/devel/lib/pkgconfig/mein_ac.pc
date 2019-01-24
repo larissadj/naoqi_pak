@@ -1,0 +1,8 @@
+prefix=/home/faps/catkin_ws/devel
+
+Name: mein_ac
+Description: Description of mein_ac
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/faps/catkin_ws/devel/lib 
+Requires: actionlib naoqi_bridge_msgs roscpp std_msgs

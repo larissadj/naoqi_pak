@@ -1,0 +1,8 @@
+prefix=/home/faps/catkin_ws/install
+
+Name: footstep_planner
+Description: Description of footstep_planner
+Version: 0.4.1
+Cflags: -I/home/faps/catkin_ws/install/include
+Libs: -L/home/faps/catkin_ws/install/lib -lfootstep_planner
+Requires: 

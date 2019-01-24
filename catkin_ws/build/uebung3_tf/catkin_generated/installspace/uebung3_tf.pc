@@ -1,0 +1,8 @@
+prefix=/home/faps/catkin_ws/install
+
+Name: uebung3_tf
+Description: Description of uebung3_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/faps/catkin_ws/install/lib 
+Requires: roscpp tf geometry_msgs

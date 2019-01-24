@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="ros_sitdown-c04537">
+ <names>
+  <name lang="en_US">ros_sitdown</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="ros_sitdown">
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

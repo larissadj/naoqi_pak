@@ -1,0 +1,5 @@
+<launch>
+     <node name = "erster_knoten" pkg = "mein_package" type = "mein_erster_knoten"> 
+     <node name = "knoten_zwo" pkg = "mein_package" type = "mein_zweiter_knoten">
+   
+</launch>

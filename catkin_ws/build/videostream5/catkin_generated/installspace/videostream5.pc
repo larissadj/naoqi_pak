@@ -1,0 +1,8 @@
+prefix=/home/faps/catkin_ws/install
+
+Name: videostream5
+Description: Description of videostream5
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/faps/catkin_ws/install/lib 
+Requires: 
