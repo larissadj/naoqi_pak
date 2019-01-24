@@ -1,0 +1,9 @@
+[rospy.client][INFO] 2018-12-19 12:20:13,217: init_node, name[/rostopic_32410_1545218413198], pid[32410]
+[xmlrpc][INFO] 2018-12-19 12:20:13,217: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:20:13,217: Started XML-RPC server [http://NAOrobUSB001:40803/]
+[rospy.init][INFO] 2018-12-19 12:20:13,217: ROS Slave URI: [http://NAOrobUSB001:40803/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:20:13,217: _ready: http://NAOrobUSB001:40803/
+[xmlrpc][INFO] 2018-12-19 12:20:13,218: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-19 12:20:13,218: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-19 12:20:13,318: registered with master
+[rospy.internal][INFO] 2018-12-19 12:20:16,842: topic[/behaviourName] adding connection to [/nao_behav_ac], count 0

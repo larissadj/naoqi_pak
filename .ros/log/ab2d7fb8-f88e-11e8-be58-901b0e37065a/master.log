@@ -1,0 +1,125 @@
+[rosmaster.main][INFO] 2018-12-05 14:07:08,564: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-05 14:07:08,564: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-05 14:07:08,565: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-12-05 14:07:08,565: Started XML-RPC server [http://NAOrobUSB001:11311/]
+[xmlrpc][INFO] 2018-12-05 14:07:08,565: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-05 14:07:08,565: Master initialized: port[11311], uri[http://NAOrobUSB001:11311/]
+[rosmaster.master][INFO] 2018-12-05 14:07:08,655: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:08,656: +PARAM [/roslaunch/uris/host_naorobusb001__35113] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:08,720: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:08,720: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:08,743: +SERVICE [/rosout/get_loggers] /rosout http://NAOrobUSB001:34603/
+[rosmaster.master][INFO] 2018-12-05 14:07:08,744: +SERVICE [/rosout/set_logger_level] /rosout http://NAOrobUSB001:34603/
+[rosmaster.master][INFO] 2018-12-05 14:07:08,745: +PUB [/rosout_agg] /rosout http://NAOrobUSB001:34603/
+[rosmaster.master][INFO] 2018-12-05 14:07:08,747: +SUB [/rosout] /rosout http://NAOrobUSB001:34603/
+[rosmaster.master][INFO] 2018-12-05 14:07:29,792: +PARAM [/roslaunch/uris/host_naorobusb001__43813] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/usb_cam/image_width] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/usb_cam/video_device] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/image_view/autosize] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/usb_cam/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/usb_cam/io_method] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/usb_cam/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,796: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,797: +PARAM [/usb_cam/image_height] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 14:07:29,973: +PUB [/rosout] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:29,974: +SERVICE [/image_view/get_loggers] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:29,974: +SERVICE [/image_view/set_logger_level] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,005: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ ['http://NAOrobUSB001:41543/']
+[rosmaster.master][INFO] 2018-12-05 14:07:30,007: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ ['http://NAOrobUSB001:41543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 14:07:30,099: +PUB [/rosout] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,100: +SERVICE [/usb_cam/get_loggers] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,100: +SERVICE [/usb_cam/set_logger_level] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,105: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ ['http://NAOrobUSB001:41543/', 'http://NAOrobUSB001:40961/']
+[rosmaster.master][INFO] 2018-12-05 14:07:30,106: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ ['http://NAOrobUSB001:41543/', 'http://NAOrobUSB001:40961/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 14:07:30,147: +PUB [/usb_cam/image_raw/compressedDepth] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,148: +SERVICE [/usb_cam/image_raw/compressedDepth/set_parameters] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,148: +PUB [/usb_cam/image_raw/compressedDepth/parameter_descriptions] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,148: +PUB [/usb_cam/image_raw/compressedDepth/parameter_updates] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,150: +PARAM [/usb_cam/image_raw/compressedDepth/depth_max] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,150: +PARAM [/usb_cam/image_raw/compressedDepth/depth_quantization] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,151: +PARAM [/usb_cam/image_raw/compressedDepth/png_level] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,151: +PARAM [/usb_cam/image_raw/compressedDepth/depth_max] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,152: +PARAM [/usb_cam/image_raw/compressedDepth/depth_quantization] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,152: +PARAM [/usb_cam/image_raw/compressedDepth/png_level] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,156: +PUB [/usb_cam/image_raw/compressed] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,156: +SERVICE [/usb_cam/image_raw/compressed/set_parameters] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,156: +PUB [/usb_cam/image_raw/compressed/parameter_descriptions] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,157: +PUB [/usb_cam/image_raw/compressed/parameter_updates] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,158: +PARAM [/usb_cam/image_raw/compressed/format] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,159: +PARAM [/usb_cam/image_raw/compressed/jpeg_quality] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,159: +PARAM [/usb_cam/image_raw/compressed/png_level] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,159: +PARAM [/usb_cam/image_raw/compressed/format] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,160: +PARAM [/usb_cam/image_raw/compressed/jpeg_quality] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,160: +PARAM [/usb_cam/image_raw/compressed/png_level] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,163: +PUB [/usb_cam/image_raw] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,167: +PUB [/usb_cam/image_raw/theora] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,167: +SERVICE [/usb_cam/image_raw/theora/set_parameters] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,168: +PUB [/usb_cam/image_raw/theora/parameter_descriptions] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,168: +PUB [/usb_cam/image_raw/theora/parameter_updates] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,170: +PARAM [/usb_cam/image_raw/theora/optimize_for] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,170: +PARAM [/usb_cam/image_raw/theora/target_bitrate] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,171: +PARAM [/usb_cam/image_raw/theora/quality] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,171: +PARAM [/usb_cam/image_raw/theora/keyframe_frequency] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,171: +PARAM [/usb_cam/image_raw/theora/optimize_for] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,172: +PARAM [/usb_cam/image_raw/theora/target_bitrate] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,172: +PARAM [/usb_cam/image_raw/theora/quality] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,173: +PARAM [/usb_cam/image_raw/theora/keyframe_frequency] by /usb_cam
+[rosmaster.master][INFO] 2018-12-05 14:07:30,173: +PUB [/usb_cam/camera_info] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,181: +SERVICE [/usb_cam/set_camera_info] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,181: +SERVICE [/usb_cam/start_capture] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,182: +SERVICE [/usb_cam/stop_capture] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,186: -SERVICE [/usb_cam/get_loggers] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,186: -SERVICE [/usb_cam/set_logger_level] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,187: -SERVICE [/usb_cam/image_raw/compressedDepth/set_parameters] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,187: -SERVICE [/usb_cam/image_raw/compressed/set_parameters] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,187: -SERVICE [/usb_cam/image_raw/theora/set_parameters] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,188: -SERVICE [/usb_cam/set_camera_info] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,188: -SERVICE [/usb_cam/start_capture] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,189: -SERVICE [/usb_cam/stop_capture] /usb_cam rosrpc://NAOrobUSB001:47955
+[rosmaster.master][INFO] 2018-12-05 14:07:30,221: +SUB [/usb_cam/image_raw] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,221: +PUB [/image_view/output] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,222: +SERVICE [/image_view/set_parameters] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,222: +PUB [/image_view/parameter_descriptions] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,223: +PUB [/image_view/parameter_updates] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,224: +PARAM [/image_view/do_dynamic_scaling] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,225: +PARAM [/image_view/colormap] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,225: +PARAM [/image_view/min_image_value] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,226: +PARAM [/image_view/max_image_value] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,226: +PARAM [/image_view/do_dynamic_scaling] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,227: +PARAM [/image_view/colormap] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,227: +PARAM [/image_view/min_image_value] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,227: +PARAM [/image_view/max_image_value] by /image_view
+[rosmaster.master][INFO] 2018-12-05 14:07:30,320: -PUB [/rosout] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,321: -PUB [/usb_cam/image_raw/compressedDepth] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,321: -PUB [/usb_cam/image_raw/compressedDepth/parameter_descriptions] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,322: -PUB [/usb_cam/image_raw/compressedDepth/parameter_updates] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,322: -PUB [/usb_cam/image_raw/compressed] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,322: -PUB [/usb_cam/image_raw/compressed/parameter_descriptions] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,323: -PUB [/usb_cam/image_raw/compressed/parameter_updates] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,323: -PUB [/usb_cam/image_raw] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,324: -PUB [/usb_cam/image_raw/theora] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,324: -PUB [/usb_cam/image_raw/theora/parameter_descriptions] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,325: -PUB [/usb_cam/image_raw/theora/parameter_updates] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,325: -PUB [/usb_cam/camera_info] /usb_cam http://NAOrobUSB001:40961/
+[rosmaster.master][INFO] 2018-12-05 14:07:30,406: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ ['http://NAOrobUSB001:41543/']
+[rosmaster.master][INFO] 2018-12-05 14:07:30,406: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ ['http://NAOrobUSB001:41543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 14:07:30,406: publisherUpdate[/usb_cam/image_raw] -> http://NAOrobUSB001:41543/ []
+[rosmaster.master][INFO] 2018-12-05 14:07:30,407: publisherUpdate[/usb_cam/image_raw] -> http://NAOrobUSB001:41543/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 14:07:37,720: -PUB [/rosout] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:37,721: -PUB [/image_view/output] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:37,721: -PUB [/image_view/parameter_descriptions] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:37,722: -PUB [/image_view/parameter_updates] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:37,722: -SUB [/usb_cam/image_raw] /image_view http://NAOrobUSB001:41543/
+[rosmaster.master][INFO] 2018-12-05 14:07:37,723: -SERVICE [/image_view/get_loggers] /image_view rosrpc://NAOrobUSB001:43261
+[rosmaster.master][INFO] 2018-12-05 14:07:37,723: -SERVICE [/image_view/set_logger_level] /image_view rosrpc://NAOrobUSB001:43261
+[rosmaster.master][INFO] 2018-12-05 14:07:37,723: -SERVICE [/image_view/set_parameters] /image_view rosrpc://NAOrobUSB001:43261
+[rosmaster.master][INFO] 2018-12-05 14:07:37,820: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ []
+[rosmaster.master][INFO] 2018-12-05 14:07:37,822: publisherUpdate[/rosout] -> http://NAOrobUSB001:34603/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-05 14:07:38,422: -PUB [/rosout_agg] /rosout http://NAOrobUSB001:34603/
+[rosmaster.master][INFO] 2018-12-05 14:07:38,423: -SUB [/rosout] /rosout http://NAOrobUSB001:34603/
+[rosmaster.master][INFO] 2018-12-05 14:07:38,423: -SERVICE [/rosout/get_loggers] /rosout rosrpc://NAOrobUSB001:41025
+[rosmaster.master][INFO] 2018-12-05 14:07:38,424: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://NAOrobUSB001:41025
+[rosmaster.main][INFO] 2018-12-05 14:07:38,499: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-12-05 14:07:38,499: stopping master...
+[rospy.core][INFO] 2018-12-05 14:07:38,499: signal_shutdown [atexit]

@@ -1,0 +1,2 @@
+[INFO] [1545225279.798316]: Loaded 7 poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[INFO] [1545225280.259895]: pose_manager running, offering poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']

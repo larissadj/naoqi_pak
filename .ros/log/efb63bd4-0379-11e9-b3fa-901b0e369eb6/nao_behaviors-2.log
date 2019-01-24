@@ -1,0 +1,1884 @@
+[rospy.client][INFO] 2018-12-19 11:36:26,615: init_node, name[/nao_behaviors], pid[20188]
+[xmlrpc][INFO] 2018-12-19 11:36:26,616: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 11:36:26,616: Started XML-RPC server [http://NAOrobUSB001:41311/]
+[rospy.init][INFO] 2018-12-19 11:36:26,616: ROS Slave URI: [http://NAOrobUSB001:41311/]
+[rospy.impl.masterslave][INFO] 2018-12-19 11:36:26,616: _ready: http://NAOrobUSB001:41311/
+[rospy.registration][INFO] 2018-12-19 11:36:26,617: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 11:36:26,617: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 11:36:26,716: registered with master
+[rospy.rosout][INFO] 2018-12-19 11:36:26,717: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 11:36:26,721: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 11:36:26,723: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 11:36:26,748: nao_behaviors running...
+[rospy.internal][INFO] 2018-12-19 11:36:27,018: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 12:07:20,330: topic[/run_behavior/goal] adding connection to [http://NAOrobUSB001:45331/], count 0
+[rospy.internal][INFO] 2018-12-19 12:07:20,330: topic[/run_behavior/cancel] adding connection to [http://NAOrobUSB001:45331/], count 0
+[rospy.internal][INFO] 2018-12-19 12:07:20,432: topic[/run_behavior/status] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:07:20,434: topic[/run_behavior/feedback] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:07:20,435: topic[/run_behavior/result] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][ERROR] 2018-12-19 12:07:20,553: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55626 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:20,553: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55630 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][INFO] 2018-12-19 12:07:20,829: topic[/run_behavior/status] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:07:20,830: topic[/run_behavior/result] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:07:20,830: topic[/run_behavior/feedback] removing connection to /nao_behav_ac
+[rospy.internal][ERROR] 2018-12-19 12:07:21,555: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55640 on socket 13]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:21,555: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55638 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:23,558: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55644 on socket 13]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:23,558: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55642 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:27,561: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55646 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:27,562: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55648 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:35,566: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55652 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:35,570: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55654 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:51,582: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55656 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:07:51,586: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55658 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:08:23,586: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 45867 to [127.0.0.1:55660 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:08:23,588: Unable to initiate TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 45867 to [127.0.0.1:55662 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][WARNING] 2018-12-19 12:08:55,618: Unknown error initiating TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 12:08:55,618: topic[/run_behavior/goal] removing connection to http://NAOrobUSB001:45331/
+[rospy.internal][WARNING] 2018-12-19 12:08:55,620: Unknown error initiating TCP/IP socket to NAOrobUSB001:45867 (http://NAOrobUSB001:45331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 12:08:55,620: topic[/run_behavior/cancel] removing connection to http://NAOrobUSB001:45331/
+[rospy.internal][INFO] 2018-12-19 12:09:01,684: topic[/run_behavior/cancel] adding connection to [http://NAOrobUSB001:35189/], count 0
+[rospy.internal][INFO] 2018-12-19 12:09:01,685: topic[/run_behavior/goal] adding connection to [http://NAOrobUSB001:35189/], count 0
+[rospy.internal][INFO] 2018-12-19 12:09:01,786: topic[/run_behavior/status] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:09:01,787: topic[/run_behavior/feedback] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:09:01,787: topic[/run_behavior/result] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][ERROR] 2018-12-19 12:09:01,921: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50850 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:01,921: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50854 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][INFO] 2018-12-19 12:09:02,149: topic[/run_behavior/status] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:09:02,184: topic[/run_behavior/result] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:09:02,185: topic[/run_behavior/feedback] removing connection to /nao_behav_ac
+[rospy.internal][ERROR] 2018-12-19 12:09:02,922: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50862 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:02,923: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50864 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:04,926: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50866 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:04,926: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50868 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:08,931: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50870 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:08,932: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50872 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:16,938: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50874 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:16,941: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50876 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:32,955: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50878 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:09:32,956: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50880 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:10:04,979: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50884 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:10:04,988: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50886 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:10:37,007: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50890 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:10:37,018: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50892 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:11:09,029: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50894 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:11:09,039: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50896 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:11:41,052: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50900 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:11:41,068: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50902 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:12:13,078: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 35003 to [127.0.0.1:50904 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:12:13,082: Unable to initiate TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 35003 to [127.0.0.1:50906 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][WARNING] 2018-12-19 12:12:45,096: Unknown error initiating TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 12:12:45,097: topic[/run_behavior/goal] removing connection to http://NAOrobUSB001:35189/
+[rospy.internal][WARNING] 2018-12-19 12:12:45,114: Unknown error initiating TCP/IP socket to NAOrobUSB001:35003 (http://NAOrobUSB001:35189/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 12:12:45,115: topic[/run_behavior/cancel] removing connection to http://NAOrobUSB001:35189/
+[rospy.internal][INFO] 2018-12-19 12:13:13,811: topic[/run_behavior/goal] adding connection to [http://NAOrobUSB001:42921/], count 0
+[rospy.internal][INFO] 2018-12-19 12:13:13,813: topic[/run_behavior/cancel] adding connection to [http://NAOrobUSB001:42921/], count 0
+[rospy.internal][INFO] 2018-12-19 12:13:13,914: topic[/run_behavior/status] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:13:13,916: topic[/run_behavior/feedback] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:13:13,918: topic[/run_behavior/result] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][ERROR] 2018-12-19 12:13:35,869: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47344 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:35,870: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47348 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][INFO] 2018-12-19 12:13:36,149: topic[/run_behavior/status] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:13:36,320: topic[/run_behavior/result] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:13:36,320: topic[/run_behavior/feedback] removing connection to /nao_behav_ac
+[rospy.internal][ERROR] 2018-12-19 12:13:36,871: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47358 on socket 13]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:36,871: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47356 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:38,874: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47362 on socket 13]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:38,875: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47360 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:42,878: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47364 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:42,879: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47366 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:50,882: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47368 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:13:50,888: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47370 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:14:06,891: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47372 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:14:06,897: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47374 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:14:38,923: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47428 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:14:38,926: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47430 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:15:10,926: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47482 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:15:10,958: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47484 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:15:42,936: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47488 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:15:42,989: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47490 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:16:14,956: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47492 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:16:15,018: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47494 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:16:46,986: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47498 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:16:47,040: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47500 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:17:19,018: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 52855 to [127.0.0.1:47502 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:17:19,064: Unable to initiate TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 52855 to [127.0.0.1:47504 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][WARNING] 2018-12-19 12:17:51,030: Unknown error initiating TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 12:17:51,030: topic[/run_behavior/goal] removing connection to http://NAOrobUSB001:42921/
+[rospy.internal][WARNING] 2018-12-19 12:17:51,090: Unknown error initiating TCP/IP socket to NAOrobUSB001:52855 (http://NAOrobUSB001:42921/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 12:17:51,090: topic[/run_behavior/cancel] removing connection to http://NAOrobUSB001:42921/
+[rospy.internal][INFO] 2018-12-19 12:20:16,963: topic[/run_behavior/cancel] adding connection to [http://NAOrobUSB001:46225/], count 0
+[rospy.internal][INFO] 2018-12-19 12:20:16,964: topic[/run_behavior/goal] adding connection to [http://NAOrobUSB001:46225/], count 0
+[rospy.internal][INFO] 2018-12-19 12:20:17,065: topic[/run_behavior/status] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:20:17,066: topic[/run_behavior/feedback] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:20:17,066: topic[/run_behavior/result] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][ERROR] 2018-12-19 12:20:39,127: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:42886 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:39,127: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:42890 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][INFO] 2018-12-19 12:20:39,349: topic[/run_behavior/status] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:20:39,471: topic[/run_behavior/result] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:20:39,471: topic[/run_behavior/feedback] removing connection to /nao_behav_ac
+[rospy.internal][ERROR] 2018-12-19 12:20:40,129: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:42898 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:40,129: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:42900 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:42,130: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:42904 on socket 13]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:42,130: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:42902 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:46,131: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:42906 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:46,134: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:42908 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:54,139: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:42910 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:20:54,141: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:42912 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:21:10,154: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:42914 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:21:10,157: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:42916 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:21:42,187: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43020 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:21:42,687: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43022 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:22:14,218: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43026 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:22:14,689: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43028 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:22:46,251: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43054 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:22:46,722: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43056 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:23:18,282: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43058 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:23:18,732: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43060 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:23:50,314: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43064 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:23:50,762: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43066 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:24:22,347: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43068 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:24:22,795: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43070 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:24:54,378: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43074 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:24:54,828: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43076 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:25:26,394: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43078 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:25:26,854: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43080 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:25:58,402: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43084 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:25:58,886: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43086 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:26:30,426: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43088 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:26:30,897: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43090 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:27:02,441: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43094 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:27:02,922: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43096 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:27:34,461: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43098 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:27:34,937: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43100 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:28:06,491: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43104 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:28:06,962: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43106 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:28:38,525: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43110 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:28:38,966: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43112 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:29:10,557: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43118 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:29:10,999: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43120 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:29:42,585: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43124 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:29:43,031: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43126 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:30:14,611: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43130 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:30:15,062: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43132 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:30:46,631: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43136 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:30:47,091: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43138 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:31:18,649: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43140 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:31:19,123: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43142 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:31:50,679: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43146 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:31:51,150: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43148 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:32:22,712: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43150 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:32:23,184: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43152 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:32:54,734: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43156 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:32:55,216: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43158 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:33:26,766: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43160 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:33:27,233: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43162 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:33:58,782: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43166 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:33:59,265: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43168 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:34:30,806: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43170 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:34:31,287: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43172 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:35:02,838: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43176 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:35:03,318: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43178 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:35:34,844: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43184 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:35:35,351: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43186 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:36:06,877: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43190 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:36:07,371: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43192 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:36:38,907: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43196 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:36:39,388: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43198 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:37:10,939: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43200 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:37:11,419: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43202 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:37:42,968: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43204 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:37:43,438: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43206 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:38:14,983: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43208 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:38:15,449: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43210 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:38:47,017: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43212 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:38:47,482: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43214 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:39:19,034: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43216 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:39:19,511: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43218 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:39:51,067: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43220 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:39:51,542: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43222 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:40:23,098: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43224 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:40:23,547: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43226 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:40:55,130: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43228 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:40:55,559: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43230 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:41:27,162: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43232 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:41:27,563: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43234 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:41:59,194: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43236 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:41:59,595: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43238 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:42:31,226: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43240 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:42:31,618: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43242 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:43:03,240: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43244 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:43:03,651: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43246 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:43:35,264: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43248 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:43:35,679: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43250 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:44:07,295: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43252 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:44:07,707: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43254 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:44:39,327: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43256 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:44:39,711: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43258 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:45:11,333: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43260 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:45:11,730: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43262 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:45:43,366: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43264 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:45:43,750: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43266 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:46:15,399: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43268 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:46:15,755: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43270 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:46:47,425: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43272 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:46:47,767: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43274 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:47:19,457: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43276 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:47:19,895: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43278 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:47:51,469: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43280 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:47:51,926: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43282 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:48:23,477: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43284 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:48:23,959: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43286 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:48:55,490: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43288 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:48:55,992: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43290 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:49:27,505: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43294 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:49:28,006: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43296 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:49:59,533: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43298 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:50:00,034: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43300 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:50:31,551: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43302 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:50:32,058: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43304 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:51:03,575: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43306 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:51:04,087: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43308 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:51:35,608: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43310 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:51:36,118: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43312 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:52:07,641: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43314 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:52:08,150: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43316 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:52:39,658: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43318 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:52:40,162: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43320 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:53:11,678: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:43322 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:53:12,184: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:43324 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:53:43,706: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:44540 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:53:44,214: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:44542 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:54:15,737: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:44642 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:54:16,240: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:44644 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:54:47,758: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/goal] from [TCPROS connection on port 50557 to [127.0.0.1:44680 on socket 10]] [/nao_behaviors].
+
+[rospy.internal][ERROR] 2018-12-19 12:54:48,254: Unable to initiate TCP/IP socket to NAOrobUSB001:50557 (http://NAOrobUSB001:46225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/run_behavior/cancel] from [TCPROS connection on port 50557 to [127.0.0.1:44682 on socket 10]] [/nao_behaviors].
+
+[rospy.core][INFO] 2018-12-19 12:55:19,230: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 12:55:19,231: Stopping nao_behaviors
+[rosout][INFO] 2018-12-19 12:55:19,231: nao_behaviors stopped
+[rospy.internal][INFO] 2018-12-19 12:55:19,234: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 12:55:19,234: topic[/run_behavior/cancel] removing connection to http://NAOrobUSB001:46225/
+[rospy.internal][INFO] 2018-12-19 12:55:19,234: topic[/run_behavior/goal] removing connection to http://NAOrobUSB001:46225/
+[rospy.impl.masterslave][INFO] 2018-12-19 12:55:19,234: signal-2
+[rosout][INFO] 2018-12-19 12:55:19,350: nao_behaviors stopped.
+[rospy.core][INFO] 2018-12-19 12:55:19,350: signal_shutdown [atexit]

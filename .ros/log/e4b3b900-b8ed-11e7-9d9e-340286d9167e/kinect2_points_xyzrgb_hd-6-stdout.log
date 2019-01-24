@@ -1,0 +1,8 @@
+[0m[ INFO] [1508871754.914269309]: Loading nodelet /kinect2_points_xyzrgb_hd of type depth_image_proc/point_cloud_xyzrgb to manager kinect2 with the following remappings:[0m
+[0m[ INFO] [1508871754.914329682]: /depth_registered/image_rect -> /kinect2/hd/image_depth_rect[0m
+[0m[ INFO] [1508871754.914348202]: /depth_registered/points -> /kinect2/hd/points[0m
+[0m[ INFO] [1508871754.914365082]: /rgb/camera_info -> /kinect2/hd/camera_info[0m
+[0m[ INFO] [1508871754.914380197]: /rgb/image_rect_color -> /kinect2/hd/image_color_rect[0m
+[0m[ INFO] [1508871754.920893597]: waitForService: Service [/kinect2/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1508871754.942656920]: waitForService: Service [/kinect2/load_nodelet] is now available.[0m
+[0m[ INFO] [1508871824.572603510]: Unloading nodelet /kinect2_points_xyzrgb_hd from manager kinect2[0m

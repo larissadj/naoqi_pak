@@ -1,0 +1,6 @@
+[0m[ INFO] [1547728772.110881434]: Loading nodelet /pepper_robot/camera/register_depth_front of type depth_image_proc/register to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728772.110947865]: /pepper_robot/camera/depth/camera_info -> /pepper_robot/camera/depth/camera_info[0m
+[0m[ INFO] [1547728772.110965857]: /pepper_robot/camera/depth/image_rect -> /pepper_robot/camera/depth/image_rect_raw[0m
+[0m[ INFO] [1547728772.110987275]: /pepper_robot/camera/depth_registered/image_rect -> /pepper_robot/camera/depth_registered/sw_registered/image_rect_raw[0m
+[0m[ INFO] [1547728772.111000575]: /pepper_robot/camera/rgb/camera_info -> /pepper_robot/camera/front/camera_info[0m
+[0m[ INFO] [1547728783.053560209]: Unloading nodelet /pepper_robot/camera/register_depth_front from manager camera_nodelet_manager[0m

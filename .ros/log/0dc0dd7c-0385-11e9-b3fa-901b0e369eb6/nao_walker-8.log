@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2018-12-19 12:56:02,811: init_node, name[/nao_walker], pid[5290]
+[xmlrpc][INFO] 2018-12-19 12:56:02,811: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:56:02,811: Started XML-RPC server [http://NAOrobUSB001:46063/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:56:02,811: _ready: http://NAOrobUSB001:46063/
+[rospy.init][INFO] 2018-12-19 12:56:02,813: ROS Slave URI: [http://NAOrobUSB001:46063/]
+[rospy.registration][INFO] 2018-12-19 12:56:02,813: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 12:56:02,813: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:56:02,913: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:56:02,913: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:56:02,916: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:56:02,918: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:56:02,931: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 12:56:02,971: useFootGaitConfig = 0
+[rosout][INFO] 2018-12-19 12:56:03,026: nao_walker initialized
+[rosout][INFO] 2018-12-19 12:56:03,027: nao_walker running...
+[rospy.internal][INFO] 2018-12-19 12:56:03,198: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-19 14:12:59,659: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 14:12:59,659: Stopping nao_walker
+[rosout][INFO] 2018-12-19 14:12:59,660: nao_walker stopped
+[rospy.internal][INFO] 2018-12-19 14:12:59,668: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-19 14:12:59,668: signal-2
+[rosout][INFO] 2018-12-19 14:12:59,772: nao_walker stopping...
+[rosout][INFO] 2018-12-19 14:12:59,772: nao_walker stopped.
+[rospy.core][INFO] 2018-12-19 14:12:59,773: signal_shutdown [atexit]

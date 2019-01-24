@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2019-01-17 13:40:17,027: init_node, name[/pepper_robot/pose/pose_controller], pid[19058]
+[xmlrpc][INFO] 2019-01-17 13:40:17,027: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-01-17 13:40:17,027: Started XML-RPC server [http://192.168.0.159:40065/]
+[rospy.init][INFO] 2019-01-17 13:40:17,028: ROS Slave URI: [http://192.168.0.159:40065/]
+[rospy.impl.masterslave][INFO] 2019-01-17 13:40:17,028: _ready: http://192.168.0.159:40065/
+[rospy.registration][INFO] 2019-01-17 13:40:17,028: Registering with master node http://192.168.0.159:11311
+[xmlrpc][INFO] 2019-01-17 13:40:17,028: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-01-17 13:40:17,128: registered with master
+[rospy.rosout][INFO] 2019-01-17 13:40:17,128: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-01-17 13:40:17,131: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-01-17 13:40:17,132: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2019-01-17 13:40:17,142: Connecting to NaoQi at 192.168.0.20:9559
+[rospy.internal][INFO] 2019-01-17 13:40:17,846: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2019-01-17 13:40:17,900: Collection LLeg not found on your robot.
+[rosout][WARNING] 2019-01-17 13:40:17,972: Collection RLeg not found on your robot.
+[rospy.internal][INFO] 2019-01-17 13:40:18,310: topic[/pepper_robot/pose/joint_trajectory/cancel] adding connection to [http://192.168.0.159:40253/], count 0
+[rospy.internal][INFO] 2019-01-17 13:40:18,312: topic[/pepper_robot/pose/joint_trajectory/goal] adding connection to [http://192.168.0.159:40253/], count 0
+[rospy.internal][INFO] 2019-01-17 13:40:18,337: topic[/pepper_robot/pose/joint_trajectory/feedback] adding connection to [/pepper_robot/pose/pose_manager], count 0
+[rospy.internal][INFO] 2019-01-17 13:40:18,338: topic[/pepper_robot/pose/joint_trajectory/result] adding connection to [/pepper_robot/pose/pose_manager], count 0
+[rospy.internal][INFO] 2019-01-17 13:40:18,339: topic[/pepper_robot/pose/joint_trajectory/status] adding connection to [/pepper_robot/pose/pose_manager], count 0
+[rosout][INFO] 2019-01-17 13:40:18,351: nao_controller initialized
+[rosout][INFO] 2019-01-17 13:40:18,352: nao pose_controller running...
+[rospy.core][INFO] 2019-01-17 14:00:42,649: signal_shutdown [signal-15]
+[rosout][INFO] 2019-01-17 14:00:42,650: Stopping pose_controller
+[rosout][INFO] 2019-01-17 14:00:42,653: pose_controller stopped

@@ -1,0 +1,426 @@
+[rospy.client][INFO] 2018-12-19 12:59:15,640: init_node, name[/nao_footsteps], pid[9218]
+[xmlrpc][INFO] 2018-12-19 12:59:15,640: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:59:15,640: Started XML-RPC server [http://NAOrobUSB001:33435/]
+[rospy.init][INFO] 2018-12-19 12:59:15,640: ROS Slave URI: [http://NAOrobUSB001:33435/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:59:15,640: _ready: http://NAOrobUSB001:33435/
+[rospy.registration][INFO] 2018-12-19 12:59:15,641: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 12:59:15,641: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:59:15,740: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:59:15,741: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:59:15,742: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:59:15,743: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:59:15,749: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 12:59:15,775: nao_footsteps initialized
+[rosout][INFO] 2018-12-19 12:59:15,775: nao_footsteps running...
+[rospy.internal][INFO] 2018-12-19 12:59:15,996: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:16,314: topic[/footsteps_execution/cancel] adding connection to [http://NAOrobUSB001:34987/], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:16,315: topic[/footsteps_execution/goal] adding connection to [http://NAOrobUSB001:34987/], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:16,416: topic[/footsteps_execution/status] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:16,417: topic[/footsteps_execution/feedback] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:16,417: topic[/footsteps_execution/result] adding connection to [/footstep_navigation], count 0
+[rospy.core][INFO] 2018-12-19 13:00:48,265: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 13:00:48,265: Stopping nao_footsteps
+[rosout][INFO] 2018-12-19 13:00:48,266: nao_footsteps stopped
+[rospy.internal][INFO] 2018-12-19 13:00:48,272: topic[/footsteps_execution/feedback] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:00:48,272: topic[/footsteps_execution/status] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:00:48,272: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 13:00:48,272: topic[/footsteps_execution/result] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:00:48,272: topic[/footsteps_execution/goal] removing connection to http://NAOrobUSB001:34987/
+[rospy.internal][INFO] 2018-12-19 13:00:48,273: topic[/footsteps_execution/cancel] removing connection to http://NAOrobUSB001:34987/
+[rospy.impl.masterslave][INFO] 2018-12-19 13:00:48,273: signal-2
+[rosout][INFO] 2018-12-19 13:00:48,436: nao_footsteps stopping...
+[rospy.core][INFO] 2018-12-19 13:00:48,437: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-12-19 13:00:55,483: init_node, name[/nao_footsteps], pid[12459]
+[xmlrpc][INFO] 2018-12-19 13:00:55,484: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 13:00:55,484: Started XML-RPC server [http://NAOrobUSB001:45457/]
+[rospy.init][INFO] 2018-12-19 13:00:55,484: ROS Slave URI: [http://NAOrobUSB001:45457/]
+[rospy.impl.masterslave][INFO] 2018-12-19 13:00:55,484: _ready: http://NAOrobUSB001:45457/
+[xmlrpc][INFO] 2018-12-19 13:00:55,484: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-19 13:00:55,485: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-19 13:00:55,584: registered with master
+[rospy.rosout][INFO] 2018-12-19 13:00:55,585: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 13:00:55,586: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 13:00:55,587: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 13:00:55,594: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 13:00:55,627: nao_footsteps initialized
+[rosout][INFO] 2018-12-19 13:00:55,627: nao_footsteps running...
+[rospy.internal][INFO] 2018-12-19 13:00:55,661: topic[/footsteps_execution/cancel] adding connection to [http://NAOrobUSB001:33213/], count 0
+[rospy.internal][INFO] 2018-12-19 13:00:55,663: topic[/footsteps_execution/goal] adding connection to [http://NAOrobUSB001:33213/], count 0
+[rospy.internal][INFO] 2018-12-19 13:00:55,846: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 13:00:55,853: topic[/footsteps_execution/result] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:00:55,853: topic[/footsteps_execution/feedback] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:00:55,853: topic[/footsteps_execution/status] adding connection to [/footstep_navigation], count 0
+[rospy.core][INFO] 2018-12-19 13:16:56,047: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 13:16:56,047: Stopping nao_footsteps
+[rosout][INFO] 2018-12-19 13:16:56,047: nao_footsteps stopped
+[rospy.internal][INFO] 2018-12-19 13:16:56,054: topic[/footsteps_execution/feedback] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:16:56,054: topic[/footsteps_execution/status] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:16:56,055: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 13:16:56,055: topic[/footsteps_execution/result] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:16:56,055: topic[/footsteps_execution/goal] removing connection to http://NAOrobUSB001:33213/
+[rospy.internal][INFO] 2018-12-19 13:16:56,055: topic[/footsteps_execution/cancel] removing connection to http://NAOrobUSB001:33213/
+[rospy.impl.masterslave][INFO] 2018-12-19 13:16:56,055: signal-2
+[rospy.internal][WARNING] 2018-12-19 13:16:56,055: Unknown error initiating TCP/IP socket to NAOrobUSB001:60017 (http://NAOrobUSB001:33213/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rosout][INFO] 2018-12-19 13:16:56,187: nao_footsteps stopping...
+[rospy.core][INFO] 2018-12-19 13:16:56,227: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-12-19 13:17:02,062: init_node, name[/nao_footsteps], pid[13362]
+[xmlrpc][INFO] 2018-12-19 13:17:02,062: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 13:17:02,063: Started XML-RPC server [http://NAOrobUSB001:37145/]
+[rospy.init][INFO] 2018-12-19 13:17:02,063: ROS Slave URI: [http://NAOrobUSB001:37145/]
+[rospy.impl.masterslave][INFO] 2018-12-19 13:17:02,063: _ready: http://NAOrobUSB001:37145/
+[rospy.registration][INFO] 2018-12-19 13:17:02,063: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 13:17:02,063: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 13:17:02,163: registered with master
+[rospy.rosout][INFO] 2018-12-19 13:17:02,163: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 13:17:02,165: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 13:17:02,166: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 13:17:02,173: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 13:17:02,205: nao_footsteps initialized
+[rosout][INFO] 2018-12-19 13:17:02,205: nao_footsteps running...
+[rospy.internal][INFO] 2018-12-19 13:17:02,241: topic[/footsteps_execution/goal] adding connection to [http://NAOrobUSB001:45513/], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:02,241: topic[/footsteps_execution/cancel] adding connection to [http://NAOrobUSB001:45513/], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:02,339: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:02,340: topic[/footsteps_execution/result] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:02,341: topic[/footsteps_execution/status] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:02,441: topic[/footsteps_execution/feedback] adding connection to [/footstep_navigation], count 0
+[rospy.core][INFO] 2018-12-19 13:17:30,427: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 13:17:30,427: Stopping nao_footsteps
+[rosout][INFO] 2018-12-19 13:17:30,428: nao_footsteps stopped
+[rospy.internal][INFO] 2018-12-19 13:17:30,431: topic[/footsteps_execution/feedback] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:17:30,432: topic[/footsteps_execution/status] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:17:30,432: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 13:17:30,432: topic[/footsteps_execution/result] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:17:30,432: topic[/footsteps_execution/goal] removing connection to http://NAOrobUSB001:45513/
+[rospy.internal][INFO] 2018-12-19 13:17:30,433: topic[/footsteps_execution/cancel] removing connection to http://NAOrobUSB001:45513/
+[rospy.impl.masterslave][INFO] 2018-12-19 13:17:30,433: signal-2
+[rosout][INFO] 2018-12-19 13:17:30,564: nao_footsteps stopping...
+[rospy.core][INFO] 2018-12-19 13:17:30,605: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-12-19 13:17:33,525: init_node, name[/nao_footsteps], pid[14003]
+[xmlrpc][INFO] 2018-12-19 13:17:33,526: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 13:17:33,526: Started XML-RPC server [http://NAOrobUSB001:37289/]
+[rospy.impl.masterslave][INFO] 2018-12-19 13:17:33,526: _ready: http://NAOrobUSB001:37289/
+[rospy.init][INFO] 2018-12-19 13:17:33,526: ROS Slave URI: [http://NAOrobUSB001:37289/]
+[xmlrpc][INFO] 2018-12-19 13:17:33,526: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-19 13:17:33,527: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-19 13:17:33,627: registered with master
+[rospy.rosout][INFO] 2018-12-19 13:17:33,627: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 13:17:33,629: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 13:17:33,630: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 13:17:33,636: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 13:17:33,664: nao_footsteps initialized
+[rosout][INFO] 2018-12-19 13:17:33,665: nao_footsteps running...
+[rospy.internal][INFO] 2018-12-19 13:17:33,701: topic[/footsteps_execution/cancel] adding connection to [http://NAOrobUSB001:39173/], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:33,702: topic[/footsteps_execution/goal] adding connection to [http://NAOrobUSB001:39173/], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:33,812: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:34,013: topic[/footsteps_execution/feedback] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:34,014: topic[/footsteps_execution/status] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:34,014: topic[/footsteps_execution/result] adding connection to [/footstep_navigation], count 0
+[rospy.core][INFO] 2018-12-19 13:18:59,115: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 13:18:59,115: Stopping nao_footsteps
+[rosout][INFO] 2018-12-19 13:18:59,115: nao_footsteps stopped
+[rospy.internal][INFO] 2018-12-19 13:18:59,119: topic[/footsteps_execution/feedback] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:18:59,119: topic[/footsteps_execution/status] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:18:59,119: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 13:18:59,120: topic[/footsteps_execution/result] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:18:59,120: topic[/footsteps_execution/goal] removing connection to http://NAOrobUSB001:39173/
+[rospy.internal][INFO] 2018-12-19 13:18:59,120: topic[/footsteps_execution/cancel] removing connection to http://NAOrobUSB001:39173/
+[rospy.impl.masterslave][INFO] 2018-12-19 13:18:59,120: signal-2
+[rosout][INFO] 2018-12-19 13:18:59,252: nao_footsteps stopping...
+[rospy.core][INFO] 2018-12-19 13:18:59,265: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-12-19 13:19:01,668: init_node, name[/nao_footsteps], pid[14665]
+[xmlrpc][INFO] 2018-12-19 13:19:01,668: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 13:19:01,668: Started XML-RPC server [http://NAOrobUSB001:33081/]
+[rospy.init][INFO] 2018-12-19 13:19:01,668: ROS Slave URI: [http://NAOrobUSB001:33081/]
+[rospy.impl.masterslave][INFO] 2018-12-19 13:19:01,668: _ready: http://NAOrobUSB001:33081/
+[rospy.registration][INFO] 2018-12-19 13:19:01,669: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 13:19:01,669: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 13:19:01,768: registered with master
+[rospy.rosout][INFO] 2018-12-19 13:19:01,769: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 13:19:01,770: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 13:19:01,771: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 13:19:01,778: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 13:19:01,805: nao_footsteps initialized
+[rosout][INFO] 2018-12-19 13:19:01,805: nao_footsteps running...
+[rospy.internal][INFO] 2018-12-19 13:19:01,842: topic[/footsteps_execution/cancel] adding connection to [http://NAOrobUSB001:45969/], count 0
+[rospy.internal][INFO] 2018-12-19 13:19:01,844: topic[/footsteps_execution/goal] adding connection to [http://NAOrobUSB001:45969/], count 0
+[rospy.internal][INFO] 2018-12-19 13:19:01,958: topic[/footsteps_execution/status] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:19:01,959: topic[/footsteps_execution/result] adding connection to [/footstep_navigation], count 0
+[rospy.internal][INFO] 2018-12-19 13:19:01,959: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 13:19:02,059: topic[/footsteps_execution/feedback] adding connection to [/footstep_navigation], count 0
+[rosout][INFO] 2018-12-19 13:19:17,283: Step leg: 1; target: 0.008696 0.136117 0.216440
+[rosout][INFO] 2018-12-19 13:19:20,509: Step leg: 0; target: 0.018282 -0.137555 -0.262507
+[rosout][INFO] 2018-12-19 13:19:22,480: Step leg: 1; target: 0.045033 0.102333 0.000000
+[rosout][INFO] 2018-12-19 13:19:24,444: Step leg: 0; target: 0.054847 -0.097426 -0.000000
+[rosout][INFO] 2018-12-19 13:19:26,439: Step leg: 1; target: 0.045033 0.102333 0.000000
+[rosout][INFO] 2018-12-19 13:19:28,404: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:30,419: Step leg: 1; target: 0.045033 0.102333 0.000000
+[rosout][INFO] 2018-12-19 13:19:32,389: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:34,354: Step leg: 1; target: 0.045033 0.102333 -0.000000
+[rosout][INFO] 2018-12-19 13:19:36,309: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:38,305: Step leg: 1; target: 0.045033 0.102333 -0.000000
+[rosout][INFO] 2018-12-19 13:19:40,299: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:42,299: Step leg: 1; target: 0.045033 0.102333 -0.000000
+[rosout][INFO] 2018-12-19 13:19:44,264: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:46,229: Step leg: 1; target: 0.045033 0.102333 -0.000000
+[rosout][INFO] 2018-12-19 13:19:48,189: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:50,174: Step leg: 1; target: 0.045033 0.102333 -0.000000
+[rosout][INFO] 2018-12-19 13:19:52,180: Step leg: 0; target: 0.054847 -0.097426 0.000000
+[rosout][INFO] 2018-12-19 13:19:54,190: Step leg: 1; target: 0.023585 0.131316 0.294524
+[rosout][INFO] 2018-12-19 13:19:56,179: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:19:58,174: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:00,160: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:02,144: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:04,144: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:06,130: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:08,139: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:10,104: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:12,074: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:14,054: Step leg: 1; target: 0.046129 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:16,065: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:18,059: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:20,065: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:22,029: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:23,989: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:25,949: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:27,904: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:29,869: Step leg: 1; target: 0.046129 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:31,829: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:33,783: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:35,784: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:37,759: Step leg: 1; target: 0.046128 0.101844 0.000000
+[rosout][INFO] 2018-12-19 13:20:39,729: Step leg: 0; target: 0.048464 -0.094611 0.000000
+[rosout][INFO] 2018-12-19 13:20:41,719: Step leg: 1; target: 0.024298 0.097003 0.294525
+[rosout][INFO] 2018-12-19 13:20:43,674: Step leg: 0; target: 0.049030 -0.096416 0.027612
+[rosout][INFO] 2018-12-19 13:20:45,634: Step leg: 1; target: 0.025678 0.101196 0.294525
+[rosout][INFO] 2018-12-19 13:20:47,594: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:20:49,579: Step leg: 1; target: 0.041905 0.132454 -0.000000
+[rosout][INFO] 2018-12-19 13:20:51,544: Step leg: 0; target: 0.051643 -0.101651 -0.000000
+[rosout][INFO] 2018-12-19 13:20:53,525: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:20:55,534: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:20:57,535: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:20:59,540: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:21:01,529: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:03,540: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:21:05,514: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:07,479: Step leg: 0; target: 0.051643 -0.101651 -0.000000
+[rosout][INFO] 2018-12-19 13:21:09,439: Step leg: 1; target: 0.047233 0.096794 -0.000000
+[rosout][INFO] 2018-12-19 13:21:11,399: Step leg: 0; target: 0.051643 -0.101651 -0.000000
+[rosout][INFO] 2018-12-19 13:21:13,348: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:15,319: Step leg: 0; target: 0.051643 -0.101652 0.000000
+[rosout][INFO] 2018-12-19 13:21:17,279: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:19,254: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:21:21,260: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:23,265: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:21:25,259: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:27,464: Step leg: 0; target: 0.022005 -0.128514 -0.294524
+[rosout][INFO] 2018-12-19 13:21:29,429: Step leg: 1; target: 0.025678 0.101196 0.294524
+[rosout][INFO] 2018-12-19 13:21:31,389: Step leg: 0; target: 0.051643 -0.101652 -0.000000
+[rosout][INFO] 2018-12-19 13:21:33,359: Step leg: 1; target: 0.047233 0.096794 -0.000000
+[rosout][INFO] 2018-12-19 13:21:35,309: Step leg: 0; target: 0.051643 -0.101652 -0.000000
+[rosout][INFO] 2018-12-19 13:21:37,274: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:39,229: Step leg: 0; target: 0.051643 -0.101651 -0.000000
+[rosout][INFO] 2018-12-19 13:21:41,194: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:43,144: Step leg: 0; target: 0.051643 -0.101651 0.000000
+[rosout][INFO] 2018-12-19 13:21:45,109: Step leg: 1; target: 0.047233 0.096794 0.000000
+[rosout][INFO] 2018-12-19 13:21:47,063: Step leg: 0; target: -0.005573 -0.094858 -0.017847
+[rosout][INFO] 2018-12-19 13:22:45,747: Step leg: 1; target: 0.019340 0.136906 0.165110
+[rosout][INFO] 2018-12-19 13:22:47,704: Step leg: 0; target: 0.052798 -0.097018 -0.000000
+[rosout][INFO] 2018-12-19 13:22:49,709: Step leg: 1; target: 0.019275 0.133149 0.294524
+[rosout][INFO] 2018-12-19 13:22:51,664: Step leg: 0; target: 0.051070 -0.099458 -0.000000
+[rosout][INFO] 2018-12-19 13:22:53,654: Step leg: 1; target: 0.022582 0.132250 0.294525
+[rosout][INFO] 2018-12-19 13:22:55,660: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 13:22:57,649: Step leg: 1; target: 0.050000 0.100001 0.000000
+[rosout][INFO] 2018-12-19 13:22:59,659: Step leg: 0; target: 0.050000 -0.100000 -0.000000
+[rosout][INFO] 2018-12-19 13:23:01,654: Step leg: 1; target: 0.020000 0.100000 0.294524
+[rosout][INFO] 2018-12-19 13:23:03,649: Step leg: 0; target: 0.053332 -0.099778 0.000000
+[rosout][INFO] 2018-12-19 13:23:05,659: Step leg: 1; target: 0.051070 0.099458 0.000000
+[rosout][INFO] 2018-12-19 13:23:07,624: Step leg: 0; target: 0.053332 -0.099778 -0.000000
+[rosout][INFO] 2018-12-19 13:23:09,584: Step leg: 1; target: 0.051070 0.099458 0.000000
+[rosout][INFO] 2018-12-19 13:23:11,549: Step leg: 0; target: 0.053332 -0.099778 0.000000
+[rosout][INFO] 2018-12-19 13:23:13,539: Step leg: 1; target: 0.019459 0.098597 0.294524
+[rosout][INFO] 2018-12-19 13:23:15,540: Step leg: 0; target: 0.024869 -0.088778 0.000000
+[rosout][INFO] 2018-12-19 13:23:17,534: Step leg: 1; target: 0.016743 0.097055 0.294525
+[rosout][INFO] 2018-12-19 13:23:19,534: Step leg: 0; target: 0.033905 -0.088603 0.000000
+[rosout][INFO] 2018-12-19 13:23:21,509: Step leg: 1; target: 0.023777 0.097132 0.294524
+[rosout][INFO] 2018-12-19 13:23:23,499: Step leg: 0; target: 0.051334 -0.097800 0.000000
+[rosout][INFO] 2018-12-19 13:23:25,500: Step leg: 1; target: 0.024818 0.096871 0.294524
+[rosout][INFO] 2018-12-19 13:23:27,464: Step leg: 0; target: 0.049609 -0.095598 0.000000
+[rosout][INFO] 2018-12-19 13:23:29,424: Step leg: 1; target: 0.052117 0.107726 0.073631
+[rosout][INFO] 2018-12-19 13:23:31,419: Step leg: 0; target: 0.049609 -0.095598 0.000000
+[rosout][INFO] 2018-12-19 13:23:33,420: Step leg: 1; target: 0.050889 0.095448 0.000000
+[rosout][INFO] 2018-12-19 13:23:35,420: Step leg: 0; target: 0.019753 -0.098539 -0.294524
+[rosout][INFO] 2018-12-19 13:23:37,389: Step leg: 1; target: 0.047123 0.095286 0.000000
+[rosout][INFO] 2018-12-19 13:23:39,344: Step leg: 0; target: 0.051334 -0.097800 -0.000000
+[rosout][INFO] 2018-12-19 13:23:41,304: Step leg: 1; target: 0.047122 0.095286 -0.000000
+[rosout][INFO] 2018-12-19 13:23:43,264: Step leg: 0; target: 0.051334 -0.097800 -0.000000
+[rosout][INFO] 2018-12-19 13:23:45,259: Step leg: 1; target: 0.047123 0.095287 0.000000
+[rosout][INFO] 2018-12-19 13:23:47,264: Step leg: 0; target: 0.051334 -0.097800 -0.000000
+[rosout][INFO] 2018-12-19 13:23:49,224: Step leg: 1; target: 0.047122 0.095286 -0.000000
+[rosout][INFO] 2018-12-19 13:23:51,229: Step leg: 0; target: 0.051334 -0.097800 -0.000000
+[rosout][INFO] 2018-12-19 13:23:53,224: Step leg: 1; target: 0.047122 0.095286 0.000000
+[rosout][INFO] 2018-12-19 13:23:55,184: Step leg: 0; target: 0.051334 -0.097800 -0.000000
+[rosout][INFO] 2018-12-19 13:23:57,159: Step leg: 1; target: 0.047123 0.095287 -0.000000
+[rosout][INFO] 2018-12-19 13:23:59,119: Step leg: 0; target: 0.051334 -0.097800 -0.000000
+[rosout][INFO] 2018-12-19 13:24:01,079: Step leg: 1; target: 0.047122 0.095287 0.000000
+[rosout][INFO] 2018-12-19 13:24:03,054: Step leg: 0; target: 0.019791 -0.100042 -0.294524
+[rosout][INFO] 2018-12-19 13:24:05,055: Step leg: 1; target: 0.045582 0.102090 -0.000000
+[rosout][INFO] 2018-12-19 13:24:07,039: Step leg: 0; target: 0.018445 -0.101290 -0.294525
+[rosout][INFO] 2018-12-19 13:24:09,009: Step leg: 1; target: 0.052798 0.097018 0.000000
+[rosout][INFO] 2018-12-19 13:24:11,015: Step leg: 0; target: 0.003491 -0.091830 0.013304
+[rosout][INFO] 2018-12-19 13:51:14,520: Step leg: 1; target: -0.032137 0.136677 0.133958
+[rosout][INFO] 2018-12-19 13:51:16,479: Step leg: 0; target: -0.030802 -0.093548 0.000000
+[rosout][INFO] 2018-12-19 13:51:18,439: Step leg: 1; target: -0.020625 0.126816 0.294524
+[rosout][INFO] 2018-12-19 13:51:20,389: Step leg: 0; target: -0.001758 -0.094323 0.000000
+[rosout][INFO] 2018-12-19 13:51:22,343: Step leg: 1; target: -0.025678 0.101196 0.294525
+[rosout][INFO] 2018-12-19 13:51:24,304: Step leg: 0; target: 0.031569 -0.084873 0.000000
+[rosout][INFO] 2018-12-19 13:51:26,274: Step leg: 1; target: -0.021887 0.131661 0.294524
+[rosout][INFO] 2018-12-19 13:51:28,249: Step leg: 0; target: 0.025548 -0.091364 0.000000
+[rosout][INFO] 2018-12-19 13:51:30,255: Step leg: 1; target: 0.016367 0.129353 0.294525
+[rosout][INFO] 2018-12-19 13:51:32,234: Step leg: 0; target: 0.032910 -0.086121 0.000000
+[rosout][INFO] 2018-12-19 13:51:34,189: Step leg: 1; target: 0.024273 0.099402 0.294524
+[rosout][INFO] 2018-12-19 13:51:36,154: Step leg: 0; target: 0.050536 -0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:51:38,104: Step leg: 1; target: 0.023292 0.132127 0.294524
+[rosout][INFO] 2018-12-19 13:51:40,064: Step leg: 0; target: 0.049463 -0.100267 -0.000000
+[rosout][INFO] 2018-12-19 13:51:42,024: Step leg: 1; target: 0.034472 0.087816 0.000000
+[rosout][INFO] 2018-12-19 13:51:43,994: Step leg: 0; target: 0.049463 -0.100450 0.000000
+[rosout][INFO] 2018-12-19 13:51:45,980: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:51:47,970: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:51:49,985: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:51:51,974: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:51:53,979: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:51:55,944: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:51:57,909: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:51:59,864: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:52:01,834: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:52:03,789: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:52:05,754: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:52:07,724: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:52:09,729: Step leg: 1; target: 0.050536 0.099730 -0.000000
+[rosout][INFO] 2018-12-19 13:52:11,709: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:52:13,679: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:52:15,629: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:52:17,594: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:52:19,554: Step leg: 0; target: 0.049463 -0.100267 -0.000000
+[rosout][INFO] 2018-12-19 13:52:21,509: Step leg: 1; target: 0.050536 0.099730 0.000000
+[rosout][INFO] 2018-12-19 13:52:23,469: Step leg: 0; target: 0.049463 -0.100267 0.000000
+[rosout][INFO] 2018-12-19 13:52:25,429: Step leg: 1; target: 0.022558 0.103881 0.294524
+[rosout][INFO] 2018-12-19 13:52:27,419: Step leg: 0; target: 0.046473 -0.100201 -0.000000
+[rosout][INFO] 2018-12-19 13:52:29,409: Step leg: 1; target: 0.016757 0.101584 0.294524
+[rosout][INFO] 2018-12-19 13:52:31,399: Step leg: 0; target: 0.054847 -0.097426 -0.000000
+[rosout][INFO] 2018-12-19 13:52:33,359: Step leg: 1; target: 0.015069 0.100861 0.294524
+[rosout][INFO] 2018-12-19 13:52:35,329: Step leg: 0; target: 0.038745 -0.133412 0.000000
+[rosout][INFO] 2018-12-19 13:52:37,319: Step leg: 1; target: 0.024298 0.097003 0.294524
+[rosout][INFO] 2018-12-19 13:52:39,289: Step leg: 0; target: 0.000053 -0.116619 0.294524
+[rosout][INFO] 2018-12-19 13:52:41,264: Step leg: 1; target: -0.030802 0.093548 0.294524
+[rosout][INFO] 2018-12-19 13:52:43,229: Step leg: 0; target: 0.001832 -0.120817 0.294524
+[rosout][INFO] 2018-12-19 13:52:45,189: Step leg: 1; target: -0.034457 0.095983 0.294524
+[rosout][INFO] 2018-12-19 13:52:47,154: Step leg: 0; target: 0.004892 -0.100268 0.011670
+[rosout][INFO] 2018-12-19 14:06:35,992: Step leg: 1; target: 0.058624 0.118732 0.310466
+[rosout][INFO] 2018-12-19 14:06:37,954: Step leg: 0; target: 0.020035 -0.097972 -0.294524
+[rosout][INFO] 2018-12-19 14:06:39,903: Step leg: 1; target: 0.024565 0.097450 0.294524
+[rosout][INFO] 2018-12-19 14:06:41,879: Step leg: 0; target: 0.053295 -0.100795 0.018408
+[rosout][INFO] 2018-12-19 14:06:43,854: Step leg: 1; target: 0.024676 0.098950 0.294524
+[rosout][INFO] 2018-12-19 14:06:45,859: Step leg: 0; target: 0.047233 -0.096794 0.000000
+[rosout][INFO] 2018-12-19 14:06:47,855: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:06:49,860: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:06:51,829: Step leg: 1; target: 0.051643 0.101652 -0.000000
+[rosout][INFO] 2018-12-19 14:06:53,784: Step leg: 0; target: 0.047233 -0.096794 0.000000
+[rosout][INFO] 2018-12-19 14:06:55,759: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:06:57,704: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:06:59,664: Step leg: 1; target: 0.051643 0.101652 -0.000000
+[rosout][INFO] 2018-12-19 14:07:01,624: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:03,639: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:05,589: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:07,559: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:09,520: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:11,479: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:13,439: Step leg: 0; target: 0.047233 -0.096794 0.000000
+[rosout][INFO] 2018-12-19 14:07:15,399: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:17,375: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:19,374: Step leg: 1; target: 0.051643 0.101651 0.000000
+[rosout][INFO] 2018-12-19 14:07:21,380: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:23,384: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:25,390: Step leg: 0; target: 0.047233 -0.096794 0.000000
+[rosout][INFO] 2018-12-19 14:07:27,389: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:29,384: Step leg: 0; target: 0.047233 -0.096794 0.000000
+[rosout][INFO] 2018-12-19 14:07:31,354: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:33,354: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:35,304: Step leg: 1; target: 0.051643 0.101651 0.000000
+[rosout][INFO] 2018-12-19 14:07:37,309: Step leg: 0; target: 0.047233 -0.096794 -0.000000
+[rosout][INFO] 2018-12-19 14:07:39,264: Step leg: 1; target: 0.051643 0.101651 -0.000000
+[rosout][INFO] 2018-12-19 14:07:41,224: Step leg: 0; target: 0.018983 -0.098182 -0.294524
+[rosout][INFO] 2018-12-19 14:07:43,194: Step leg: 1; target: 0.029440 0.085635 0.000000
+[rosout][INFO] 2018-12-19 14:07:45,180: Step leg: 0; target: 0.051430 -0.104125 -0.000000
+[rosout][INFO] 2018-12-19 14:07:47,180: Step leg: 1; target: 0.029440 0.085635 0.000000
+[rosout][INFO] 2018-12-19 14:07:49,149: Step leg: 0; target: 0.051430 -0.104125 0.000000
+[rosout][INFO] 2018-12-19 14:07:51,104: Step leg: 1; target: 0.029440 0.085635 0.000000
+[rosout][INFO] 2018-12-19 14:07:53,069: Step leg: 0; target: 0.051430 -0.104124 0.000000
+[rosout][INFO] 2018-12-19 14:07:55,029: Step leg: 1; target: 0.047031 0.099439 0.000000
+[rosout][INFO] 2018-12-19 14:07:56,994: Step leg: 0; target: -0.000042 -0.098254 -0.020647
+[rosout][INFO] 2018-12-19 14:10:57,415: Step leg: 1; target: 0.055908 0.105173 0.167910
+[rosout][INFO] 2018-12-19 14:10:59,420: Step leg: 0; target: 0.019313 -0.097093 -0.294524
+[rosout][INFO] 2018-12-19 14:11:01,419: Step leg: 1; target: 0.052892 0.098501 -0.018408
+[rosout][INFO] 2018-12-19 14:11:03,415: Step leg: 0; target: 0.021721 -0.100639 -0.294524
+[rosout][INFO] 2018-12-19 14:11:05,420: Step leg: 1; target: 0.050000 0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:07,384: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:09,359: Step leg: 1; target: 0.050000 0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:11,324: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:13,339: Step leg: 1; target: 0.050000 0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:15,314: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:17,264: Step leg: 1; target: 0.050000 0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:19,229: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:21,219: Step leg: 1; target: 0.050000 0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:23,544: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:25,504: Step leg: 1; target: 0.050000 0.100001 0.000000
+[rosout][INFO] 2018-12-19 14:11:27,469: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:29,424: Step leg: 1; target: 0.050000 0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:31,389: Step leg: 0; target: 0.050000 -0.100000 0.000000
+[rosout][INFO] 2018-12-19 14:11:33,384: Step leg: 1; target: 0.020000 0.100000 0.294524
+[rosout][INFO] 2018-12-19 14:11:35,349: Step leg: 0; target: 0.053332 -0.099778 0.000000
+[rosout][INFO] 2018-12-19 14:11:37,344: Step leg: 1; target: 0.019459 0.098597 0.294525
+[rosout][INFO] 2018-12-19 14:11:39,304: Step leg: 0; target: 0.049813 -0.105445 0.000000
+[rosout][INFO] 2018-12-19 14:11:41,304: Step leg: 1; target: 0.016743 0.097055 0.294524
+[rosout][INFO] 2018-12-19 14:11:43,319: Step leg: 0; target: 0.057000 -0.096182 0.027612
+[rosout][INFO] 2018-12-19 14:11:45,279: Step leg: 1; target: 0.023777 0.097132 0.294524
+[rosout][INFO] 2018-12-19 14:11:47,244: Step leg: 0; target: 0.053125 -0.096839 0.018408
+[rosout][INFO] 2018-12-19 14:11:49,245: Step leg: 1; target: 0.024818 0.096871 0.294524
+[rosout][INFO] 2018-12-19 14:11:51,254: Step leg: 0; target: 0.049609 -0.095598 0.000000
+[rosout][INFO] 2018-12-19 14:11:53,254: Step leg: 1; target: 0.020054 0.102459 0.294524
+[rosout][INFO] 2018-12-19 14:11:55,239: Step leg: 0; target: 0.054242 -0.098577 0.027612
+[rosout][INFO] 2018-12-19 14:11:57,199: Step leg: 1; target: 0.037120 0.135359 -0.000000
+[rosout][INFO] 2018-12-19 14:11:59,169: Step leg: 0; target: 0.051097 -0.101927 0.000000
+[rosout][INFO] 2018-12-19 14:12:01,185: Step leg: 1; target: 0.015554 0.129453 0.294524
+[rosout][INFO] 2018-12-19 14:12:03,149: Step leg: 0; target: 0.051089 -0.095341 0.000000
+[rosout][INFO] 2018-12-19 14:12:05,104: Step leg: 1; target: 0.051854 0.097011 0.000001
+[rosout][INFO] 2018-12-19 14:12:07,064: Step leg: 0; target: 0.051089 -0.095341 0.000000
+[rosout][INFO] 2018-12-19 14:12:09,024: Step leg: 1; target: 0.051854 0.097011 -0.000000
+[rosout][INFO] 2018-12-19 14:12:10,989: Step leg: 0; target: 0.051089 -0.095341 0.000000
+[rosout][INFO] 2018-12-19 14:12:12,949: Step leg: 1; target: 0.051854 0.097011 0.000000
+[rosout][INFO] 2018-12-19 14:12:14,904: Step leg: 0; target: 0.015204 -0.098838 -0.294524
+[rosout][INFO] 2018-12-19 14:12:16,864: Step leg: 1; target: 0.037120 0.135359 0.000000
+[rosout][INFO] 2018-12-19 14:12:18,824: Step leg: 0; target: 0.021673 -0.096074 -0.294524
+[rosout][INFO] 2018-12-19 14:12:20,794: Step leg: 1; target: -0.001810 0.120402 -0.294524
+[rosout][INFO] 2018-12-19 14:12:22,754: Step leg: 0; target: 0.019791 -0.100042 -0.294524
+[rosout][INFO] 2018-12-19 14:12:24,704: Step leg: 1; target: 0.004745 0.120322 -0.294524
+[rosout][INFO] 2018-12-19 14:12:26,669: Step leg: 0; target: -0.030613 -0.099814 -0.294524
+[rosout][INFO] 2018-12-19 14:12:28,629: Step leg: 1; target: 0.003223 0.113972 -0.294524
+[rosout][INFO] 2018-12-19 14:12:30,599: Step leg: 0; target: -0.005000 -0.092500 0.000000
+[rospy.internal][INFO] 2018-12-19 14:13:01,326: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2018-12-19 14:14:03,339: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 14:14:03,339: Stopping nao_footsteps
+[rosout][INFO] 2018-12-19 14:14:03,339: nao_footsteps stopped
+[rospy.registration][WARNING] 2018-12-19 14:14:03,340: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2018-12-19 14:14:03,340: topic[/footsteps_execution/feedback] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 14:14:03,340: topic[/footsteps_execution/status] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 14:14:03,341: topic[/footsteps_execution/result] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 14:14:03,341: topic[/footsteps_execution/goal] removing connection to http://NAOrobUSB001:45969/
+[rospy.internal][INFO] 2018-12-19 14:14:03,341: topic[/footsteps_execution/cancel] removing connection to http://NAOrobUSB001:45969/
+[rospy.impl.masterslave][INFO] 2018-12-19 14:14:03,341: signal-2
+[rosout][INFO] 2018-12-19 14:14:03,449: nao_footsteps stopping...
+[rospy.core][INFO] 2018-12-19 14:14:03,449: signal_shutdown [atexit]

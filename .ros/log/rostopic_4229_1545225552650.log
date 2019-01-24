@@ -1,0 +1,50 @@
+[rospy.client][INFO] 2018-12-19 14:19:12,673: init_node, name[/rostopic_4229_1545225552650], pid[4229]
+[xmlrpc][INFO] 2018-12-19 14:19:12,673: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 14:19:12,673: Started XML-RPC server [http://NAOrobUSB001:32771/]
+[rospy.init][INFO] 2018-12-19 14:19:12,673: ROS Slave URI: [http://NAOrobUSB001:32771/]
+[rospy.impl.masterslave][INFO] 2018-12-19 14:19:12,673: _ready: http://NAOrobUSB001:32771/
+[rospy.registration][INFO] 2018-12-19 14:19:12,674: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 14:19:12,674: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 14:19:12,774: registered with master
+[rospy.rosout][INFO] 2018-12-19 14:19:12,774: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 14:19:12,775: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 14:19:12,776: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-19 14:19:12,788: topic[/goal] adding connection to [http://NAOrobUSB001:43157/], count 0
+[rospy.internal][INFO] 2018-12-19 14:19:13,059: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 14:19:15,903: topic[/goal] adding connection to [http://NAOrobUSB001:35887/], count 1
+[rospy.internal][ERROR] 2018-12-19 14:19:16,815: Unable to initiate TCP/IP socket to NAOrobUSB001:36251 (http://NAOrobUSB001:35887/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/goal] from [TCPROS connection on port 36251 to [127.0.0.1:55618 on socket 10]] [/rostopic_4229_1545225552650].
+
+[rospy.internal][WARNING] 2018-12-19 14:19:17,816: Unknown error initiating TCP/IP socket to NAOrobUSB001:36251 (http://NAOrobUSB001:35887/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 14:19:17,816: topic[/goal] removing connection to http://NAOrobUSB001:35887/
+[rospy.core][INFO] 2018-12-19 14:25:18,762: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-12-19 14:25:18,764: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 14:25:18,764: topic[/goal] removing connection to http://NAOrobUSB001:43157/
+[rospy.internal][WARNING] 2018-12-19 14:25:18,765: Unknown error initiating TCP/IP socket to NAOrobUSB001:60219 (http://NAOrobUSB001:43157/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2018-12-19 14:25:18,765: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2018-12-19 14:25:18,765: signal-2
+[rospy.core][INFO] 2018-12-19 14:25:18,865: signal_shutdown [atexit]

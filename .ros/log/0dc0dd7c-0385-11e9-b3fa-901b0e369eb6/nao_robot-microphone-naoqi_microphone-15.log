@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2018-12-19 12:56:03,230: init_node, name[/nao_robot/microphone/naoqi_microphone], pid[5345]
+[xmlrpc][INFO] 2018-12-19 12:56:03,230: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:56:03,231: Started XML-RPC server [http://NAOrobUSB001:43099/]
+[rospy.init][INFO] 2018-12-19 12:56:03,231: ROS Slave URI: [http://NAOrobUSB001:43099/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:56:03,231: _ready: http://NAOrobUSB001:43099/
+[rospy.registration][INFO] 2018-12-19 12:56:03,231: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 12:56:03,231: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:56:03,331: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:56:03,331: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:56:03,333: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:56:03,334: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2018-12-19 12:56:03,346: Could not create Proxy to "ALAudioDevice". 
+Exception message:
+	ALProxy::ALProxy
+	Can't find service: ALAudioDevice
+[rosout][INFO] 2018-12-19 12:56:03,355: reconfigure changed
+[rosout][INFO] 2018-12-19 12:56:03,355: Changes recorded but not applied as nobody is subscribed to the ROS topics.
+[rospy.internal][INFO] 2018-12-19 12:56:03,606: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-19 14:12:59,656: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 14:12:59,656: Stopping ALToRosMics
+[rosout][INFO] 2018-12-19 14:12:59,859: ALToRosMics stopped
+[rospy.internal][INFO] 2018-12-19 14:12:59,862: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-19 14:12:59,863: signal-2
+[rospy.core][INFO] 2018-12-19 14:13:00,026: signal_shutdown [atexit]

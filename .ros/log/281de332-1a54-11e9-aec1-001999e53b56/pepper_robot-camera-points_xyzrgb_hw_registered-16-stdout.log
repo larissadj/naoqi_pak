@@ -1,0 +1,8 @@
+[0m[ INFO] [1547728437.990466546]: Loading nodelet /pepper_robot/camera/points_xyzrgb_hw_registered of type depth_image_proc/point_cloud_xyzrgb to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728437.990524965]: /pepper_robot/camera/depth_registered/image_rect -> /pepper_robot/camera/depth_registered/hw_registered/image_rect_raw[0m
+[0m[ INFO] [1547728437.990546215]: /pepper_robot/camera/depth_registered/points -> /pepper_robot/camera/depth_registered/points[0m
+[0m[ INFO] [1547728437.990562756]: /pepper_robot/camera/rgb/camera_info -> /pepper_robot/camera/front/camera_info[0m
+[0m[ INFO] [1547728437.990578970]: /pepper_robot/camera/rgb/image_rect_color -> /pepper_robot/camera/front/image_rect_color[0m
+[0m[ INFO] [1547728437.992457506]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1547728438.129859869]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1547728464.613552691]: Unloading nodelet /pepper_robot/camera/points_xyzrgb_hw_registered from manager camera_nodelet_manager[0m

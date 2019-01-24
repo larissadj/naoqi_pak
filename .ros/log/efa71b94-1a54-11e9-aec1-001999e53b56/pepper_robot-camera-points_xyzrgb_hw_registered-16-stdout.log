@@ -1,0 +1,6 @@
+[0m[ INFO] [1547728772.141428733]: Loading nodelet /pepper_robot/camera/points_xyzrgb_hw_registered of type depth_image_proc/point_cloud_xyzrgb to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728772.141502186]: /pepper_robot/camera/depth_registered/image_rect -> /pepper_robot/camera/depth_registered/hw_registered/image_rect_raw[0m
+[0m[ INFO] [1547728772.141530772]: /pepper_robot/camera/depth_registered/points -> /pepper_robot/camera/depth_registered/points[0m
+[0m[ INFO] [1547728772.141549022]: /pepper_robot/camera/rgb/camera_info -> /pepper_robot/camera/front/camera_info[0m
+[0m[ INFO] [1547728772.141565500]: /pepper_robot/camera/rgb/image_rect_color -> /pepper_robot/camera/front/image_rect_color[0m
+[0m[ INFO] [1547728783.050087373]: Unloading nodelet /pepper_robot/camera/points_xyzrgb_hw_registered from manager camera_nodelet_manager[0m

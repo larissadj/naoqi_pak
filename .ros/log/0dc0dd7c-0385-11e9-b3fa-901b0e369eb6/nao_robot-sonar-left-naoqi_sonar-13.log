@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2018-12-19 12:56:02,820: init_node, name[/nao_robot/sonar/left/naoqi_sonar], pid[5339]
+[xmlrpc][INFO] 2018-12-19 12:56:02,821: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:56:02,821: Started XML-RPC server [http://NAOrobUSB001:38565/]
+[rospy.init][INFO] 2018-12-19 12:56:02,821: ROS Slave URI: [http://NAOrobUSB001:38565/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:56:02,821: _ready: http://NAOrobUSB001:38565/
+[rospy.registration][INFO] 2018-12-19 12:56:02,822: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 12:56:02,825: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:56:02,922: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:56:02,922: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:56:02,925: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:56:02,927: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:56:02,939: Connecting to NaoQi at 127.0.0.1:9559
+[rospy.internal][INFO] 2018-12-19 12:56:03,198: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-19 14:12:59,658: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 14:12:59,658: Stopping sonar_publisher
+[rosout][INFO] 2018-12-19 14:12:59,739: sonar_publisher stopped
+[rospy.internal][INFO] 2018-12-19 14:12:59,743: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-19 14:12:59,743: signal-2
+[rospy.core][INFO] 2018-12-19 14:12:59,907: signal_shutdown [atexit]

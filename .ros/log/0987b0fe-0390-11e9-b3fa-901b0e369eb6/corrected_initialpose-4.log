@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2018-12-19 14:14:54,250: init_node, name[/corrected_initialpose], pid[32739]
+[xmlrpc][INFO] 2018-12-19 14:14:54,250: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 14:14:54,250: Started XML-RPC server [http://NAOrobUSB001:41509/]
+[rospy.init][INFO] 2018-12-19 14:14:54,250: ROS Slave URI: [http://NAOrobUSB001:41509/]
+[rospy.impl.masterslave][INFO] 2018-12-19 14:14:54,251: _ready: http://NAOrobUSB001:41509/
+[rospy.registration][INFO] 2018-12-19 14:14:54,251: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 14:14:54,251: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 14:14:54,351: registered with master
+[rospy.rosout][INFO] 2018-12-19 14:14:54,351: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 14:14:54,353: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 14:14:54,353: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-19 14:14:54,365: topic[/initialpose] adding connection to [http://NAOrobUSB001:43157/], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,634: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,634: topic[/nao_corrected_initialpose] adding connection to [/fake_localization], count 0
+[rospy.internal][ERROR] 2018-12-19 14:14:54,738: Unable to initiate TCP/IP socket to NAOrobUSB001:60219 (http://NAOrobUSB001:43157/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/initialpose] from [TCPROS connection on port 60219 to [127.0.0.1:34784 on socket 27]] [/corrected_initialpose].
+
+[rospy.core][INFO] 2018-12-19 14:35:15,885: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-12-19 14:35:15,889: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 14:35:15,889: topic[/nao_corrected_initialpose] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 14:35:15,889: topic[/initialpose] removing connection to http://NAOrobUSB001:43157/
+[rospy.impl.masterslave][INFO] 2018-12-19 14:35:15,889: signal-2
+[rospy.core][INFO] 2018-12-19 14:35:15,991: signal_shutdown [atexit]

@@ -1,0 +1,6 @@
+[I] 5277 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 5277 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.105:38331
+[I] 5277 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:38331
+[INFO] [1545220562.877868]: Logger initialized
+[INFO] [1545225179.660102]: Stopping nao_logger
+[INFO] [1545225179.660325]: nao_logger stopped

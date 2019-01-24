@@ -1,0 +1,8 @@
+[0m[ INFO] [1547728437.962561790]: Loading nodelet /pepper_robot/camera/register_depth_front of type depth_image_proc/register to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728437.962610542]: /pepper_robot/camera/depth/camera_info -> /pepper_robot/camera/depth/camera_info[0m
+[0m[ INFO] [1547728437.962622153]: /pepper_robot/camera/depth/image_rect -> /pepper_robot/camera/depth/image_rect_raw[0m
+[0m[ INFO] [1547728437.962636141]: /pepper_robot/camera/depth_registered/image_rect -> /pepper_robot/camera/depth_registered/sw_registered/image_rect_raw[0m
+[0m[ INFO] [1547728437.962650535]: /pepper_robot/camera/rgb/camera_info -> /pepper_robot/camera/front/camera_info[0m
+[0m[ INFO] [1547728437.964929226]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1547728438.130053622]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1547728464.615513902]: Unloading nodelet /pepper_robot/camera/register_depth_front from manager camera_nodelet_manager[0m

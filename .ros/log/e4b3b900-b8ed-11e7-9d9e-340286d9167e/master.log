@@ -1,0 +1,564 @@
+[rosmaster.main][INFO] 2017-10-24 21:02:34,555: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-10-24 21:02:34,555: Starting ROS Master Node
+[xmlrpc][INFO] 2017-10-24 21:02:34,556: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-10-24 21:02:34,556: Started XML-RPC server [http://NAOrobUSB001:11311/]
+[xmlrpc][INFO] 2017-10-24 21:02:34,556: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-10-24 21:02:34,556: Master initialized: port[11311], uri[http://NAOrobUSB001:11311/]
+[rosmaster.master][INFO] 2017-10-24 21:02:34,618: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,620: +PARAM [/roslaunch/uris/host_naorobusb001__37221] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_bridge/fps_limit] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_bridge/base_name] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_bridge/queue_size] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_bridge/edge_aware_filter] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_bridge/bilateral_filter] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_points_xyzrgb_hd/queue_size] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,669: +PARAM [/kinect2_bridge/reg_method] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/reg_device] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/depth_method] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/calib_path] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/jpeg_quality] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/base_name_tf] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/depth_device] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/sensor] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/max_depth] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_points_xyzrgb_sd/queue_size] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/png_level] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,670: +PARAM [/kinect2_bridge/worker_threads] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,671: +PARAM [/kinect2_bridge/use_png] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,671: +PARAM [/kinect2_bridge/publish_tf] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,671: +PARAM [/kinect2_points_xyzrgb_qhd/queue_size] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,671: +PARAM [/kinect2_bridge/min_depth] by /roslaunch
+[rosmaster.master][INFO] 2017-10-24 21:02:34,737: +SERVICE [/rosout/get_loggers] /rosout http://NAOrobUSB001:46181/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,738: +SERVICE [/rosout/set_logger_level] /rosout http://NAOrobUSB001:46181/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,740: +PUB [/rosout_agg] /rosout http://NAOrobUSB001:46181/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,771: +SUB [/rosout] /rosout http://NAOrobUSB001:46181/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,902: +PUB [/rosout] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,903: +PUB [/rosout] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,903: +PUB [/rosout] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,904: +PUB [/rosout] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,905: +SERVICE [/kinect2_bridge/get_loggers] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,905: +SERVICE [/kinect2_points_xyzrgb_qhd/get_loggers] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,906: +SERVICE [/kinect2_points_xyzrgb_hd/get_loggers] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,906: +SERVICE [/kinect2_points_xyzrgb_sd/get_loggers] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,907: +SERVICE [/kinect2_bridge/set_logger_level] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,908: +SERVICE [/kinect2_points_xyzrgb_qhd/set_logger_level] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,908: +SERVICE [/kinect2_points_xyzrgb_hd/set_logger_level] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,909: +SERVICE [/kinect2_points_xyzrgb_sd/set_logger_level] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,916: +PARAM [/kinect2_bridge] by /kinect2_bridge
+[rosmaster.master][INFO] 2017-10-24 21:02:34,917: +PARAM [/kinect2_points_xyzrgb_qhd] by /kinect2_points_xyzrgb_qhd
+[rosmaster.master][INFO] 2017-10-24 21:02:34,918: +PARAM [/kinect2_points_xyzrgb_hd] by /kinect2_points_xyzrgb_hd
+[rosmaster.master][INFO] 2017-10-24 21:02:34,919: +PARAM [/kinect2_points_xyzrgb_sd] by /kinect2_points_xyzrgb_sd
+[rosmaster.master][INFO] 2017-10-24 21:02:34,926: +PUB [/rosout] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,927: +SERVICE [/kinect2/get_loggers] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,927: +SERVICE [/kinect2/set_logger_level] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,929: +SERVICE [/kinect2/load_nodelet] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,930: +SERVICE [/kinect2/unload_nodelet] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,930: +SERVICE [/kinect2/list] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:34,956: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/']
+[rosmaster.master][INFO] 2017-10-24 21:02:34,957: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:34,957: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/']
+[rosmaster.master][INFO] 2017-10-24 21:02:34,958: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:34,958: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/']
+[rosmaster.master][INFO] 2017-10-24 21:02:34,958: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:34,959: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:02:34,959: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:34,959: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/', 'http://NAOrobUSB001:43697/']
+[rosmaster.master][INFO] 2017-10-24 21:02:34,960: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/', 'http://NAOrobUSB001:43697/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:35,109: +PUB [/kinect2/qhd/points] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,109: +PUB [/kinect2/bond] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,113: +SUB [/kinect2/bond] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,117: +PUB [/kinect2/hd/points] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,161: +PUB [/kinect2/bond] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,162: +PUB [/kinect2/bond] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,167: +SUB [/kinect2/bond] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,168: +SUB [/kinect2/bond] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:02:35,257: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/']
+[rosmaster.master][INFO] 2017-10-24 21:02:35,258: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:35,258: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/']
+[rosmaster.master][INFO] 2017-10-24 21:02:35,258: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:36,526: +PUB [/kinect2/sd/image_ir] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,526: +PUB [/kinect2/sd/image_ir/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,527: +PUB [/kinect2/sd/image_ir_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,527: +PUB [/kinect2/sd/image_ir_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,528: +PUB [/kinect2/sd/image_depth] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,529: +PUB [/kinect2/sd/image_depth/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,529: +PUB [/kinect2/sd/image_depth_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,530: +PUB [/kinect2/sd/image_depth_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,530: +PUB [/kinect2/hd/image_depth_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,531: +PUB [/kinect2/hd/image_depth_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,531: +PUB [/kinect2/qhd/image_depth_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,532: +PUB [/kinect2/qhd/image_depth_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,532: +PUB [/kinect2/sd/image_color_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,533: +PUB [/kinect2/sd/image_color_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,533: +PUB [/kinect2/hd/image_color] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,534: +PUB [/kinect2/hd/image_color/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,534: +PUB [/kinect2/hd/image_color_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,535: +PUB [/kinect2/hd/image_color_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,535: +PUB [/kinect2/qhd/image_color] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,536: +PUB [/kinect2/qhd/image_color/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,536: +PUB [/kinect2/qhd/image_color_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,537: +PUB [/kinect2/qhd/image_color_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,537: +PUB [/kinect2/hd/image_mono] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,538: +PUB [/kinect2/hd/image_mono/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,539: +PUB [/kinect2/hd/image_mono_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,539: +PUB [/kinect2/hd/image_mono_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,540: +PUB [/kinect2/qhd/image_mono] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,540: +PUB [/kinect2/qhd/image_mono/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,541: +PUB [/kinect2/qhd/image_mono_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,541: +PUB [/kinect2/qhd/image_mono_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,542: +PUB [/kinect2/hd/camera_info] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,542: +PUB [/kinect2/qhd/camera_info] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,543: +PUB [/kinect2/sd/camera_info] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,549: +PUB [/kinect2/sd/points] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,564: +PUB [/kinect2/bond] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,565: +PUB [/kinect2/bond] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,569: +SUB [/kinect2/bond] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,570: +SUB [/kinect2/bond] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:02:36,660: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/']
+[rosmaster.master][INFO] 2017-10-24 21:02:36,661: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/']
+[rosmaster.master][INFO] 2017-10-24 21:02:36,662: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:36,662: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/']
+[rosmaster.master][INFO] 2017-10-24 21:02:36,664: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:36,664: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:02:36,664: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:02:36,666: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:36,666: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:36,667: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:02:36,667: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:36,668: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:49,291: +PUB [/rosout] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,291: +SERVICE [/rviz_1508871769288835417/get_loggers] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,292: +SERVICE [/rviz_1508871769288835417/set_logger_level] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,391: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/', 'http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:36329/']
+[rosmaster.master][INFO] 2017-10-24 21:02:49,394: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/', 'http://NAOrobUSB001:43697/', 'http://NAOrobUSB001:36329/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:02:49,512: +SUB [/tf] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,514: +SUB [/tf_static] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,683: +PUB [/initialpose] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,685: +PUB [/goal] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,726: -PUB [/goal] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,727: -PUB [/initialpose] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,731: +PUB [/initialpose] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,732: +PUB [/goal] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,733: +PUB [/move_base_simple/goal] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,734: -PUB [/goal] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,734: +PUB [/clicked_point] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:02:49,840: +SERVICE [/rviz_1508871769288835417/reload_shaders] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:20,698: +SUB [/kinect2/hd/image_color_rect] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,139: -SUB [/kinect2/hd/image_color_rect] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,165: -PUB [/clicked_point] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,165: -PUB [/move_base_simple/goal] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,166: -PUB [/initialpose] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,174: -SUB [/tf_static] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,175: -SUB [/tf] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,178: -SERVICE [/rviz_1508871769288835417/reload_shaders] /rviz_1508871769288835417 rosrpc://NAOrobUSB001:60631
+[rosmaster.master][INFO] 2017-10-24 21:03:37,267: -PUB [/rosout] /rviz_1508871769288835417 http://NAOrobUSB001:36329/
+[rosmaster.master][INFO] 2017-10-24 21:03:37,270: -SERVICE [/rviz_1508871769288835417/get_loggers] /rviz_1508871769288835417 rosrpc://NAOrobUSB001:60631
+[rosmaster.master][INFO] 2017-10-24 21:03:37,270: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/', 'http://NAOrobUSB001:43697/']
+[rosmaster.master][INFO] 2017-10-24 21:03:37,272: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/', 'http://NAOrobUSB001:43697/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:37,273: -SERVICE [/rviz_1508871769288835417/set_logger_level] /rviz_1508871769288835417 rosrpc://NAOrobUSB001:60631
+[rosmaster.master][INFO] 2017-10-24 21:03:44,677: -PUB [/rosout] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,677: -PUB [/kinect2/qhd/points] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,678: -PUB [/kinect2/bond] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,679: -PUB [/kinect2/hd/points] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,680: -PUB [/kinect2/sd/image_ir] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,680: -PUB [/kinect2/sd/image_ir/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,681: -PUB [/kinect2/sd/image_ir_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,681: -PUB [/kinect2/sd/image_ir_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,682: -PUB [/kinect2/sd/image_depth] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,682: -PUB [/kinect2/sd/image_depth/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,683: -PUB [/kinect2/sd/image_depth_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,683: -PUB [/kinect2/sd/image_depth_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,683: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,683: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,684: -PUB [/kinect2/hd/image_depth_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,684: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,685: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,685: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,685: -PUB [/kinect2/hd/image_depth_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,686: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,686: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,686: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,687: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43697/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-10-24 21:03:44,687: -PUB [/kinect2/qhd/image_depth_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,688: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,688: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,688: -PUB [/kinect2/qhd/image_depth_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,689: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:35979/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,689: -PUB [/kinect2/sd/image_color_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,690: -PUB [/kinect2/sd/image_color_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,691: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,691: -PUB [/kinect2/hd/image_color] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,692: -PUB [/kinect2/hd/image_color/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,692: -PUB [/kinect2/hd/image_color_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,693: -PUB [/kinect2/hd/image_color_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,693: -PUB [/kinect2/qhd/image_color] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,694: -PUB [/kinect2/qhd/image_color/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,694: -PUB [/kinect2/qhd/image_color_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,694: -PUB [/kinect2/qhd/image_color_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,695: -PUB [/kinect2/hd/image_mono] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,695: -PUB [/kinect2/hd/image_mono/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,696: -PUB [/kinect2/hd/image_mono_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,696: -PUB [/kinect2/hd/image_mono_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,697: -PUB [/kinect2/qhd/image_mono] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,697: -PUB [/kinect2/qhd/image_mono/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,698: -PUB [/kinect2/qhd/image_mono_rect] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,698: -PUB [/kinect2/qhd/image_mono_rect/compressed] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,699: -PUB [/kinect2/hd/camera_info] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,699: -PUB [/kinect2/qhd/camera_info] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,700: -PUB [/kinect2/sd/camera_info] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,700: -PUB [/kinect2/sd/points] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,701: -SUB [/kinect2/bond] /kinect2 http://NAOrobUSB001:43697/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,701: -SERVICE [/kinect2/get_loggers] /kinect2 rosrpc://NAOrobUSB001:35413
+[rosmaster.master][INFO] 2017-10-24 21:03:44,702: -SERVICE [/kinect2/set_logger_level] /kinect2 rosrpc://NAOrobUSB001:35413
+[rosmaster.master][INFO] 2017-10-24 21:03:44,702: -SERVICE [/kinect2/load_nodelet] /kinect2 rosrpc://NAOrobUSB001:35413
+[rosmaster.master][INFO] 2017-10-24 21:03:44,702: -SERVICE [/kinect2/unload_nodelet] /kinect2 rosrpc://NAOrobUSB001:35413
+[rosmaster.master][INFO] 2017-10-24 21:03:44,703: -SERVICE [/kinect2/list] /kinect2 rosrpc://NAOrobUSB001:35413
+[rosmaster.master][INFO] 2017-10-24 21:03:44,886: -PUB [/rosout] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,887: -PUB [/kinect2/bond] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,888: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,889: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,889: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,890: -PUB [/rosout] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,890: -PUB [/rosout] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,895: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,896: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,896: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,896: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,897: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-10-24 21:03:44,897: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-10-24 21:03:44,897: -PUB [/rosout] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,898: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,898: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,899: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,899: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,899: -PUB [/kinect2/bond] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,900: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,900: -SUB [/kinect2/bond] /kinect2_points_xyzrgb_qhd http://NAOrobUSB001:35979/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,900: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:43789/', 'http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-10-24 21:03:44,900: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:39067/']
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,901: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,901: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,901: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ ['http://NAOrobUSB001:39067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,902: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ []
+[rosmaster.master][INFO] 2017-10-24 21:03:44,902: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,902: publisherUpdate[/rosout] -> http://NAOrobUSB001:46181/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-10-24 21:03:44,903: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-10-24 21:03:44,903: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,903: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:35979/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,907: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,907: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,903: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,908: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,908: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,925: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,925: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,918: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ ['http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,926: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,918: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:46011/', 'http://NAOrobUSB001:39067/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,926: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,926: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:39067/']
+[rosmaster.master][INFO] 2017-10-24 21:03:44,926: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ ['http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-10-24 21:03:44,905: -PUB [/kinect2/bond] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,927: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,941: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ []
+[rosmaster.master][INFO] 2017-10-24 21:03:44,927: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ ['http://NAOrobUSB001:39067/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,941: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,942: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ []
+[rosmaster.master][INFO] 2017-10-24 21:03:44,942: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:43789/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,942: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,942: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ []
+[rosmaster.master][INFO] 2017-10-24 21:03:44,943: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:46011/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,943: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,943: publisherUpdate[/kinect2/bond] -> http://NAOrobUSB001:39067/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-10-24 21:03:44,943: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-24 21:03:44,929: -PUB [/kinect2/bond] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,958: -SUB [/kinect2/bond] /kinect2_points_xyzrgb_hd http://NAOrobUSB001:43789/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,962: -SUB [/kinect2/bond] /kinect2_points_xyzrgb_sd http://NAOrobUSB001:39067/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,962: -SUB [/kinect2/bond] /kinect2_bridge http://NAOrobUSB001:46011/
+[rosmaster.master][INFO] 2017-10-24 21:03:44,965: -SERVICE [/kinect2_points_xyzrgb_qhd/get_loggers] /kinect2_points_xyzrgb_qhd rosrpc://NAOrobUSB001:38545
+[rosmaster.master][INFO] 2017-10-24 21:03:44,969: -SERVICE [/kinect2_points_xyzrgb_hd/get_loggers] /kinect2_points_xyzrgb_hd rosrpc://NAOrobUSB001:37347
+[rosmaster.master][INFO] 2017-10-24 21:03:44,977: -SERVICE [/kinect2_points_xyzrgb_sd/get_loggers] /kinect2_points_xyzrgb_sd rosrpc://NAOrobUSB001:50713
+[rosmaster.master][INFO] 2017-10-24 21:03:44,978: -SERVICE [/kinect2_bridge/get_loggers] /kinect2_bridge rosrpc://NAOrobUSB001:55951
+[rosmaster.master][INFO] 2017-10-24 21:03:44,979: -SERVICE [/kinect2_points_xyzrgb_qhd/set_logger_level] /kinect2_points_xyzrgb_qhd rosrpc://NAOrobUSB001:38545
+[rosmaster.master][INFO] 2017-10-24 21:03:44,993: -SERVICE [/kinect2_points_xyzrgb_sd/set_logger_level] /kinect2_points_xyzrgb_sd rosrpc://NAOrobUSB001:50713
+[rosmaster.master][INFO] 2017-10-24 21:03:45,001: -SERVICE [/kinect2_bridge/set_logger_level] /kinect2_bridge rosrpc://NAOrobUSB001:55951
+[rosmaster.master][INFO] 2017-10-24 21:03:45,005: -SERVICE [/kinect2_points_xyzrgb_hd/set_logger_level] /kinect2_points_xyzrgb_hd rosrpc://NAOrobUSB001:37347
+[rosmaster.master][INFO] 2017-10-24 21:03:45,203: -PUB [/rosout_agg] /rosout http://NAOrobUSB001:46181/
+[rosmaster.master][INFO] 2017-10-24 21:03:45,203: -SUB [/rosout] /rosout http://NAOrobUSB001:46181/
+[rosmaster.master][INFO] 2017-10-24 21:03:45,204: -SERVICE [/rosout/get_loggers] /rosout rosrpc://NAOrobUSB001:52965
+[rosmaster.master][INFO] 2017-10-24 21:03:45,204: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://NAOrobUSB001:52965
+[rosmaster.main][INFO] 2017-10-24 21:03:45,278: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-10-24 21:03:45,278: stopping master...
+[rospy.core][INFO] 2017-10-24 21:03:45,278: signal_shutdown [atexit]

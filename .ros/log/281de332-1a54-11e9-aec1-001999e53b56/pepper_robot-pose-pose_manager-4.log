@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2019-01-17 13:33:58,611: init_node, name[/pepper_robot/pose/pose_manager], pid[15620]
+[xmlrpc][INFO] 2019-01-17 13:33:58,611: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-01-17 13:33:58,612: Started XML-RPC server [http://NAOrobUSB001:34595/]
+[rospy.init][INFO] 2019-01-17 13:33:58,612: ROS Slave URI: [http://NAOrobUSB001:34595/]
+[rospy.impl.masterslave][INFO] 2019-01-17 13:33:58,612: _ready: http://NAOrobUSB001:34595/
+[rospy.registration][INFO] 2019-01-17 13:33:58,612: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-01-17 13:33:58,612: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-01-17 13:33:58,712: registered with master
+[rospy.rosout][INFO] 2019-01-17 13:33:58,712: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-01-17 13:33:58,724: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-01-17 13:33:58,725: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2019-01-17 13:33:58,746: Loaded 7 poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[rospy.internal][INFO] 2019-01-17 13:33:58,932: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-01-17 13:34:01,144: topic[/pepper_robot/pose/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:36345/], count 0
+[rospy.internal][INFO] 2019-01-17 13:34:01,145: topic[/pepper_robot/pose/joint_trajectory/result] adding connection to [http://NAOrobUSB001:36345/], count 0
+[rospy.internal][INFO] 2019-01-17 13:34:01,147: topic[/pepper_robot/pose/joint_trajectory/status] adding connection to [http://NAOrobUSB001:36345/], count 0
+[rospy.internal][INFO] 2019-01-17 13:34:01,188: topic[/pepper_robot/pose/joint_trajectory/cancel] adding connection to [/pepper_robot/pose/pose_controller], count 0
+[rospy.internal][INFO] 2019-01-17 13:34:01,189: topic[/pepper_robot/pose/joint_trajectory/goal] adding connection to [/pepper_robot/pose/pose_controller], count 0
+[rosout][WARNING] 2019-01-17 13:34:03,309: stop_walk_srv not available, pose_manager will not stop the walker before executing a trajectory. This is normal if there is no nao_walker running.
+[rosout][INFO] 2019-01-17 13:34:03,330: pose_manager running, offering poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[rospy.core][INFO] 2019-01-17 13:34:25,018: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-01-17 13:34:25,028: topic[/pepper_robot/pose/joint_trajectory/cancel] removing connection to /pepper_robot/pose/pose_controller
+[rospy.internal][INFO] 2019-01-17 13:34:25,028: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-01-17 13:34:25,029: topic[/pepper_robot/pose/joint_trajectory/goal] removing connection to /pepper_robot/pose/pose_controller
+[rospy.internal][INFO] 2019-01-17 13:34:25,029: topic[/pepper_robot/pose/joint_trajectory/result] removing connection to http://NAOrobUSB001:36345/
+[rospy.internal][INFO] 2019-01-17 13:34:25,029: topic[/pepper_robot/pose/joint_trajectory/status] removing connection to http://NAOrobUSB001:36345/
+[rospy.internal][INFO] 2019-01-17 13:34:25,029: topic[/pepper_robot/pose/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:36345/
+[rospy.impl.masterslave][INFO] 2019-01-17 13:34:25,030: signal-2
+[rospy.core][INFO] 2019-01-17 13:34:25,133: signal_shutdown [atexit]

@@ -1,0 +1,3 @@
+logging to /home/faps/.ros/log/e4b3b900-b8ed-11e7-9d9e-340286d9167e/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

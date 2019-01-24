@@ -1,0 +1,52 @@
+[rospy.client][INFO] 2018-12-19 14:14:53,983: init_node, name[/nao_pose], pid[32737]
+[xmlrpc][INFO] 2018-12-19 14:14:53,984: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 14:14:53,984: Started XML-RPC server [http://NAOrobUSB001:32937/]
+[rospy.init][INFO] 2018-12-19 14:14:53,984: ROS Slave URI: [http://NAOrobUSB001:32937/]
+[rospy.impl.masterslave][INFO] 2018-12-19 14:14:53,984: _ready: http://NAOrobUSB001:32937/
+[rospy.registration][INFO] 2018-12-19 14:14:53,985: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 14:14:53,985: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 14:14:54,084: registered with master
+[rospy.rosout][INFO] 2018-12-19 14:14:54,085: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 14:14:54,086: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 14:14:54,087: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 14:14:54,094: Connecting to NaoQi at 127.0.0.1:9559
+[rospy.internal][INFO] 2018-12-19 14:14:54,171: topic[/joint_trajectory/cancel] adding connection to [http://NAOrobUSB001:33171/], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,172: topic[/joint_trajectory/goal] adding connection to [http://NAOrobUSB001:33171/], count 0
+[rosout][INFO] 2018-12-19 14:14:54,174: nao_controller initialized
+[rosout][INFO] 2018-12-19 14:14:54,174: nao pose_controller running...
+[rospy.internal][INFO] 2018-12-19 14:14:54,177: topic[/joint_stiffness] adding connection to [http://NAOrobUSB001:39635/], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,185: topic[/joint_trajectory/feedback] adding connection to [/pose_manager], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,186: topic[/joint_trajectory/result] adding connection to [/pose_manager], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,186: topic[/joint_trajectory/status] adding connection to [/pose_manager], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:54,332: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2018-12-19 14:35:15,847: Unable to initiate TCP/IP socket to NAOrobUSB001:38859 (http://NAOrobUSB001:33171/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 14:35:15,848: Unable to initiate TCP/IP socket to NAOrobUSB001:38859 (http://NAOrobUSB001:33171/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2018-12-19 14:35:15,885: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 14:35:15,886: Stopping pose_controller
+[rosout][INFO] 2018-12-19 14:35:15,917: pose_controller stopped
+[rospy.internal][INFO] 2018-12-19 14:35:15,930: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 14:35:15,930: topic[/joint_trajectory/status] removing connection to /pose_manager
+[rospy.internal][INFO] 2018-12-19 14:35:15,930: topic[/joint_trajectory/result] removing connection to /pose_manager
+[rospy.internal][INFO] 2018-12-19 14:35:15,930: topic[/joint_trajectory/feedback] removing connection to /pose_manager
+[rospy.internal][INFO] 2018-12-19 14:35:15,931: topic[/joint_trajectory/cancel] removing connection to http://NAOrobUSB001:33171/
+[rospy.internal][INFO] 2018-12-19 14:35:15,931: topic[/joint_trajectory/goal] removing connection to http://NAOrobUSB001:33171/
+[rospy.internal][INFO] 2018-12-19 14:35:15,931: topic[/joint_stiffness] removing connection to http://NAOrobUSB001:39635/
+[rospy.impl.masterslave][INFO] 2018-12-19 14:35:15,931: signal-2
+[rosout][INFO] 2018-12-19 14:35:16,038: nao pose_controller stopped.
+[rospy.core][INFO] 2018-12-19 14:35:16,039: signal_shutdown [atexit]

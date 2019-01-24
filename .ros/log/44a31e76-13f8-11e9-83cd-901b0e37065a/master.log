@@ -1,0 +1,226 @@
+[rosmaster.main][INFO] 2019-01-09 11:21:05,021: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-01-09 11:21:05,021: Starting ROS Master Node
+[xmlrpc][INFO] 2019-01-09 11:21:05,022: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-01-09 11:21:05,022: Started XML-RPC server [http://NAOrobUSB001:11311/]
+[rosmaster.master][INFO] 2019-01-09 11:21:05,022: Master initialized: port[11311], uri[http://NAOrobUSB001:11311/]
+[xmlrpc][INFO] 2019-01-09 11:21:05,022: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-01-09 11:21:05,100: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,100: +PARAM [/roslaunch/uris/host_naorobusb001__32797] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,171: +PARAM [/usb_cam/image_width] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/usb_cam/video_device] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/image_view/autosize] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/usb_cam/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/usb_cam/io_method] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/usb_cam/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,172: +PARAM [/usb_cam/image_height] by /roslaunch
+[rosmaster.master][INFO] 2019-01-09 11:21:05,326: +SERVICE [/rosout/get_loggers] /rosout http://NAOrobUSB001:34011/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,326: +SERVICE [/rosout/set_logger_level] /rosout http://NAOrobUSB001:34011/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,328: +PUB [/rosout_agg] /rosout http://NAOrobUSB001:34011/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,331: +SUB [/rosout] /rosout http://NAOrobUSB001:34011/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,408: +PUB [/rosout] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,410: +SERVICE [/usb_cam/get_loggers] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,411: +SERVICE [/usb_cam/set_logger_level] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,422: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/']
+[rosmaster.master][INFO] 2019-01-09 11:21:05,423: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 11:21:05,479: +PUB [/rosout] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,480: +SERVICE [/image_view/get_loggers] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,481: +SERVICE [/image_view/set_logger_level] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,522: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 11:21:05,522: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 11:21:05,538: +PUB [/usb_cam/image_raw/compressedDepth] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,539: +SERVICE [/usb_cam/image_raw/compressedDepth/set_parameters] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,539: +PUB [/usb_cam/image_raw/compressedDepth/parameter_descriptions] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,540: +PUB [/usb_cam/image_raw/compressedDepth/parameter_updates] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,543: +PARAM [/usb_cam/image_raw/compressedDepth/depth_max] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,543: +PARAM [/usb_cam/image_raw/compressedDepth/depth_quantization] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,544: +PARAM [/usb_cam/image_raw/compressedDepth/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,545: +PARAM [/usb_cam/image_raw/compressedDepth/depth_max] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,545: +PARAM [/usb_cam/image_raw/compressedDepth/depth_quantization] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,546: +PARAM [/usb_cam/image_raw/compressedDepth/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,554: +PUB [/usb_cam/image_raw/compressed] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,554: +SERVICE [/usb_cam/image_raw/compressed/set_parameters] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,555: +PUB [/usb_cam/image_raw/compressed/parameter_descriptions] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,556: +PUB [/usb_cam/image_raw/compressed/parameter_updates] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,558: +PARAM [/usb_cam/image_raw/compressed/format] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,558: +PARAM [/usb_cam/image_raw/compressed/jpeg_quality] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,559: +PARAM [/usb_cam/image_raw/compressed/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,559: +PARAM [/usb_cam/image_raw/compressed/format] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,560: +PARAM [/usb_cam/image_raw/compressed/jpeg_quality] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,560: +PARAM [/usb_cam/image_raw/compressed/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,566: +PUB [/usb_cam/image_raw] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,574: +PUB [/usb_cam/image_raw/theora] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,575: +SERVICE [/usb_cam/image_raw/theora/set_parameters] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,575: +PUB [/usb_cam/image_raw/theora/parameter_descriptions] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,576: +PUB [/usb_cam/image_raw/theora/parameter_updates] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,578: +PARAM [/usb_cam/image_raw/theora/optimize_for] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,578: +PARAM [/usb_cam/image_raw/theora/target_bitrate] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,579: +PARAM [/usb_cam/image_raw/theora/quality] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,579: +PARAM [/usb_cam/image_raw/theora/keyframe_frequency] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,579: +PARAM [/usb_cam/image_raw/theora/optimize_for] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,580: +PARAM [/usb_cam/image_raw/theora/target_bitrate] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,580: +PARAM [/usb_cam/image_raw/theora/quality] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,581: +PARAM [/usb_cam/image_raw/theora/keyframe_frequency] by /usb_cam
+[rosmaster.master][INFO] 2019-01-09 11:21:05,581: +PUB [/usb_cam/camera_info] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,591: +SERVICE [/usb_cam/set_camera_info] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,591: +SERVICE [/usb_cam/start_capture] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,592: +SERVICE [/usb_cam/stop_capture] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,792: +SUB [/usb_cam/image_raw] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,792: +PUB [/image_view/output] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,793: +SERVICE [/image_view/set_parameters] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,793: +PUB [/image_view/parameter_descriptions] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,794: +PUB [/image_view/parameter_updates] /image_view http://NAOrobUSB001:38775/
+[rosmaster.master][INFO] 2019-01-09 11:21:05,796: +PARAM [/image_view/do_dynamic_scaling] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,796: +PARAM [/image_view/colormap] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,796: +PARAM [/image_view/min_image_value] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,797: +PARAM [/image_view/max_image_value] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,797: +PARAM [/image_view/do_dynamic_scaling] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,798: +PARAM [/image_view/colormap] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,798: +PARAM [/image_view/min_image_value] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:21:05,798: +PARAM [/image_view/max_image_value] by /image_view
+[rosmaster.master][INFO] 2019-01-09 11:51:05,587: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:42133/
+[rosmaster.master][INFO] 2019-01-09 11:51:05,588: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:42133/
+[rosmaster.master][INFO] 2019-01-09 11:51:05,588: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:42133/
+[rosmaster.master][INFO] 2019-01-09 11:51:05,611: +SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:42133/
+[rosmaster.master][INFO] 2019-01-09 11:51:05,661: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:42133/']
+[rosmaster.master][INFO] 2019-01-09 11:51:05,662: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:42133/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 11:51:30,696: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:42133/
+[rosmaster.master][INFO] 2019-01-09 11:51:30,697: -SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:42133/
+[rosmaster.master][INFO] 2019-01-09 11:51:30,698: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:53845
+[rosmaster.master][INFO] 2019-01-09 11:51:30,699: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:53845
+[rosmaster.master][INFO] 2019-01-09 11:51:30,699: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 11:51:30,701: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 11:51:50,582: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:33115/
+[rosmaster.master][INFO] 2019-01-09 11:51:50,583: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:33115/
+[rosmaster.master][INFO] 2019-01-09 11:51:50,583: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:33115/
+[rosmaster.master][INFO] 2019-01-09 11:51:50,607: +SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:33115/
+[rosmaster.master][INFO] 2019-01-09 11:51:50,629: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:33115/']
+[rosmaster.master][INFO] 2019-01-09 11:51:50,630: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:33115/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 11:59:30,025: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:33115/
+[rosmaster.master][INFO] 2019-01-09 11:59:30,027: -SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:33115/
+[rosmaster.master][INFO] 2019-01-09 11:59:30,028: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:49127
+[rosmaster.master][INFO] 2019-01-09 11:59:30,029: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:49127
+[rosmaster.master][INFO] 2019-01-09 11:59:30,053: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 11:59:30,054: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:03:18,005: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:33887/
+[rosmaster.master][INFO] 2019-01-09 12:03:18,006: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:33887/
+[rosmaster.master][INFO] 2019-01-09 12:03:18,006: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:33887/
+[rosmaster.master][INFO] 2019-01-09 12:03:18,030: +SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:33887/
+[rosmaster.master][INFO] 2019-01-09 12:03:18,062: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:33887/']
+[rosmaster.master][INFO] 2019-01-09 12:03:18,063: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:33887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:05:44,647: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:33887/
+[rosmaster.master][INFO] 2019-01-09 12:05:44,649: -SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:33887/
+[rosmaster.master][INFO] 2019-01-09 12:05:44,651: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:47269
+[rosmaster.master][INFO] 2019-01-09 12:05:44,653: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:47269
+[rosmaster.master][INFO] 2019-01-09 12:05:44,664: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 12:05:44,665: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:06:36,847: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:45127/
+[rosmaster.master][INFO] 2019-01-09 12:06:36,848: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:45127/
+[rosmaster.master][INFO] 2019-01-09 12:06:36,848: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:45127/
+[rosmaster.master][INFO] 2019-01-09 12:06:36,871: +SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:45127/
+[rosmaster.master][INFO] 2019-01-09 12:06:36,935: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:45127/']
+[rosmaster.master][INFO] 2019-01-09 12:06:36,936: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:45127/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:07:18,591: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:45127/
+[rosmaster.master][INFO] 2019-01-09 12:07:18,591: -SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:45127/
+[rosmaster.master][INFO] 2019-01-09 12:07:18,592: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:39165
+[rosmaster.master][INFO] 2019-01-09 12:07:18,592: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:39165
+[rosmaster.master][INFO] 2019-01-09 12:07:18,594: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 12:07:18,594: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:07:25,791: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:39681/
+[rosmaster.master][INFO] 2019-01-09 12:07:25,791: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:39681/
+[rosmaster.master][INFO] 2019-01-09 12:07:25,792: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:39681/
+[rosmaster.master][INFO] 2019-01-09 12:07:25,804: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:39681/']
+[rosmaster.master][INFO] 2019-01-09 12:07:25,804: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:39681/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:07:25,814: +SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:39681/
+[rosmaster.master][INFO] 2019-01-09 12:16:28,989: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:39681/
+[rosmaster.master][INFO] 2019-01-09 12:16:28,989: -SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:39681/
+[rosmaster.master][INFO] 2019-01-09 12:16:28,990: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:52745
+[rosmaster.master][INFO] 2019-01-09 12:16:28,991: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:52745
+[rosmaster.master][INFO] 2019-01-09 12:16:29,022: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 12:16:29,022: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:16:38,485: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:35875/
+[rosmaster.master][INFO] 2019-01-09 12:16:38,485: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:35875/
+[rosmaster.master][INFO] 2019-01-09 12:16:38,486: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:35875/
+[rosmaster.master][INFO] 2019-01-09 12:16:38,510: +SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:35875/
+[rosmaster.master][INFO] 2019-01-09 12:16:38,535: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:35875/']
+[rosmaster.master][INFO] 2019-01-09 12:16:38,536: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:35875/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:20:08,205: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:35875/
+[rosmaster.master][INFO] 2019-01-09 12:20:08,206: -SUB [/usb_cam/image_raw] /opencv_bearbeitung http://NAOrobUSB001:35875/
+[rosmaster.master][INFO] 2019-01-09 12:20:08,207: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:49081
+[rosmaster.master][INFO] 2019-01-09 12:20:08,208: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:49081
+[rosmaster.master][INFO] 2019-01-09 12:20:08,225: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 12:20:08,226: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:56:05,752: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:44341/
+[rosmaster.master][INFO] 2019-01-09 12:56:05,752: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:44341/
+[rosmaster.master][INFO] 2019-01-09 12:56:05,753: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:44341/
+[rosmaster.master][INFO] 2019-01-09 12:56:05,825: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:44341/']
+[rosmaster.master][INFO] 2019-01-09 12:56:05,826: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:44341/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:56:06,027: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:44341/
+[rosmaster.master][INFO] 2019-01-09 12:56:06,027: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 12:56:06,028: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:57707
+[rosmaster.master][INFO] 2019-01-09 12:56:06,028: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:56:06,029: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:57707
+[rosmaster.master][INFO] 2019-01-09 12:56:12,192: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:36451/
+[rosmaster.master][INFO] 2019-01-09 12:56:12,193: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:36451/
+[rosmaster.master][INFO] 2019-01-09 12:56:12,193: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:36451/
+[rosmaster.master][INFO] 2019-01-09 12:56:12,235: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:36451/']
+[rosmaster.master][INFO] 2019-01-09 12:56:12,236: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:36451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:56:12,437: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:36451/
+[rosmaster.master][INFO] 2019-01-09 12:56:12,437: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 12:56:12,438: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:42451
+[rosmaster.master][INFO] 2019-01-09 12:56:12,439: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 12:56:12,440: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:42451
+[rosmaster.master][INFO] 2019-01-09 12:58:18,003: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:33501/
+[rosmaster.master][INFO] 2019-01-09 12:58:18,003: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:33501/
+[rosmaster.master][INFO] 2019-01-09 12:58:18,004: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:33501/
+[rosmaster.master][INFO] 2019-01-09 12:58:18,010: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:33501/']
+[rosmaster.master][INFO] 2019-01-09 12:58:18,010: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:33501/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 13:14:42,575: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:33501/
+[rosmaster.master][INFO] 2019-01-09 13:14:42,577: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:38071
+[rosmaster.master][INFO] 2019-01-09 13:14:42,578: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:38071
+[rosmaster.master][INFO] 2019-01-09 13:14:42,665: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 13:14:42,666: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 13:15:38,292: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:37031/
+[rosmaster.master][INFO] 2019-01-09 13:15:38,292: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:37031/
+[rosmaster.master][INFO] 2019-01-09 13:15:38,293: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:37031/
+[rosmaster.master][INFO] 2019-01-09 13:15:38,338: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:37031/']
+[rosmaster.master][INFO] 2019-01-09 13:15:38,339: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:37031/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 13:20:51,548: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:37031/
+[rosmaster.master][INFO] 2019-01-09 13:20:51,549: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:49859
+[rosmaster.master][INFO] 2019-01-09 13:20:51,551: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:49859
+[rosmaster.master][INFO] 2019-01-09 13:20:51,584: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']
+[rosmaster.master][INFO] 2019-01-09 13:20:51,586: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 13:21:20,002: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:37461/
+[rosmaster.master][INFO] 2019-01-09 13:21:20,003: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:37461/
+[rosmaster.master][INFO] 2019-01-09 13:21:20,004: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:37461/
+[rosmaster.master][INFO] 2019-01-09 13:21:20,026: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:37461/']
+[rosmaster.master][INFO] 2019-01-09 13:21:20,026: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:37461/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 13:30:37,701: +PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:39871/
+[rosmaster.master][INFO] 2019-01-09 13:30:37,701: +SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung http://NAOrobUSB001:39871/
+[rosmaster.master][INFO] 2019-01-09 13:30:37,702: +SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung http://NAOrobUSB001:39871/
+[rosmaster.master][INFO] 2019-01-09 13:30:37,710: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:39871/']
+[rosmaster.master][INFO] 2019-01-09 13:30:37,711: publisherUpdate[/rosout] -> http://NAOrobUSB001:34011/ ['http://NAOrobUSB001:33687/', 'http://NAOrobUSB001:38775/', 'http://NAOrobUSB001:39871/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-01-09 13:30:37,812: -PUB [/rosout] /opencv_bearbeitung http://NAOrobUSB001:37461/
+[rosmaster.master][INFO] 2019-01-09 13:30:37,813: -SERVICE [/opencv_bearbeitung/get_loggers] /opencv_bearbeitung rosrpc://NAOrobUSB001:40951
+[rosmaster.master][INFO] 2019-01-09 13:30:37,814: -SERVICE [/opencv_bearbeitung/set_logger_level] /opencv_bearbeitung rosrpc://NAOrobUSB001:40951
+[rosmaster.master][INFO] 2019-01-09 13:31:05,698: -SERVICE [/usb_cam/get_loggers] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,699: -SERVICE [/usb_cam/set_logger_level] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,700: -SERVICE [/usb_cam/image_raw/compressedDepth/set_parameters] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,701: -SERVICE [/usb_cam/image_raw/compressed/set_parameters] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,701: -SERVICE [/usb_cam/image_raw/theora/set_parameters] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,702: -SERVICE [/usb_cam/set_camera_info] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,703: -SERVICE [/usb_cam/start_capture] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,703: -SERVICE [/usb_cam/stop_capture] /usb_cam rosrpc://NAOrobUSB001:45641
+[rosmaster.master][INFO] 2019-01-09 13:31:05,855: -PUB [/rosout] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,856: -PUB [/usb_cam/image_raw/compressedDepth] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,857: -PUB [/usb_cam/image_raw/compressedDepth/parameter_descriptions] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,858: -PUB [/usb_cam/image_raw/compressedDepth/parameter_updates] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,858: -PUB [/usb_cam/image_raw/compressed] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,859: -PUB [/usb_cam/image_raw/compressed/parameter_descriptions] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,860: -PUB [/usb_cam/image_raw/compressed/parameter_updates] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,861: -PUB [/usb_cam/image_raw] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,861: -PUB [/usb_cam/image_raw/theora] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,862: -PUB [/usb_cam/image_raw/theora/parameter_descriptions] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,863: -PUB [/usb_cam/image_raw/theora/parameter_updates] /usb_cam http://NAOrobUSB001:33687/
+[rosmaster.master][INFO] 2019-01-09 13:31:05,863: -PUB [/usb_cam/camera_info] /usb_cam http://NAOrobUSB001:33687/

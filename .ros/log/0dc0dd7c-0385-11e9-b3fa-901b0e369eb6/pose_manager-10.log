@@ -1,0 +1,270 @@
+[rospy.client][INFO] 2018-12-19 12:56:02,797: init_node, name[/pose_manager], pid[5313]
+[xmlrpc][INFO] 2018-12-19 12:56:02,797: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:56:02,798: Started XML-RPC server [http://NAOrobUSB001:34965/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:56:02,798: _ready: http://NAOrobUSB001:34965/
+[rospy.registration][INFO] 2018-12-19 12:56:02,798: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 12:56:02,801: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:56:02,811: ROS Slave URI: [http://NAOrobUSB001:34965/]
+[rospy.init][INFO] 2018-12-19 12:56:02,811: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:56:02,811: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:56:02,814: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:56:02,815: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:56:02,827: Loaded 7 poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[rospy.internal][INFO] 2018-12-19 12:56:03,012: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:34903/], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,013: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:34903/], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,015: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:34903/], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,016: topic[/joint_trajectory/cancel] adding connection to [/pose_controller], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,026: topic[/joint_trajectory/goal] adding connection to [/pose_controller], count 0
+[rosout][INFO] 2018-12-19 12:56:03,063: pose_manager running, offering poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[rospy.internal][INFO] 2018-12-19 12:56:03,096: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:15,839: topic[/joint_trajectory/cancel] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 12:59:15,840: topic[/joint_trajectory/goal] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 12:59:15,916: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:34769/], count 1
+[rospy.internal][INFO] 2018-12-19 12:59:15,916: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:34769/], count 1
+[rospy.internal][INFO] 2018-12-19 12:59:15,918: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:34769/], count 1
+[rospy.internal][ERROR] 2018-12-19 13:00:48,295: Unable to initiate TCP/IP socket to NAOrobUSB001:34345 (http://NAOrobUSB001:34769/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:00:48,295: Unable to initiate TCP/IP socket to NAOrobUSB001:34345 (http://NAOrobUSB001:34769/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:00:48,296: Unable to initiate TCP/IP socket to NAOrobUSB001:34345 (http://NAOrobUSB001:34769/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2018-12-19 13:00:48,361: topic[/joint_trajectory/cancel] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:00:48,361: topic[/joint_trajectory/goal] removing connection to /nao_pose
+[rospy.internal][WARNING] 2018-12-19 13:00:49,297: Unknown error initiating TCP/IP socket to NAOrobUSB001:34345 (http://NAOrobUSB001:34769/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2018-12-19 13:00:49,297: Unknown error initiating TCP/IP socket to NAOrobUSB001:34345 (http://NAOrobUSB001:34769/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2018-12-19 13:00:49,298: Unknown error initiating TCP/IP socket to NAOrobUSB001:34345 (http://NAOrobUSB001:34769/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 13:00:49,298: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:34769/
+[rospy.internal][INFO] 2018-12-19 13:00:49,298: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:34769/
+[rospy.internal][INFO] 2018-12-19 13:00:49,299: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:34769/
+[rospy.internal][INFO] 2018-12-19 13:00:55,649: topic[/joint_trajectory/cancel] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:00:55,650: topic[/joint_trajectory/goal] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:00:55,680: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:41597/], count 1
+[rospy.internal][INFO] 2018-12-19 13:00:55,681: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:41597/], count 1
+[rospy.internal][INFO] 2018-12-19 13:00:55,682: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:41597/], count 1
+[rospy.internal][ERROR] 2018-12-19 13:16:56,100: Unable to initiate TCP/IP socket to NAOrobUSB001:46525 (http://NAOrobUSB001:41597/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:16:56,100: Unable to initiate TCP/IP socket to NAOrobUSB001:46525 (http://NAOrobUSB001:41597/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:16:56,101: Unable to initiate TCP/IP socket to NAOrobUSB001:46525 (http://NAOrobUSB001:41597/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2018-12-19 13:16:56,160: topic[/joint_trajectory/cancel] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:16:56,160: topic[/joint_trajectory/goal] removing connection to /nao_pose
+[rospy.internal][WARNING] 2018-12-19 13:16:57,102: Unknown error initiating TCP/IP socket to NAOrobUSB001:46525 (http://NAOrobUSB001:41597/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 13:16:57,102: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:41597/
+[rospy.internal][WARNING] 2018-12-19 13:16:57,102: Unknown error initiating TCP/IP socket to NAOrobUSB001:46525 (http://NAOrobUSB001:41597/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2018-12-19 13:16:57,103: Unknown error initiating TCP/IP socket to NAOrobUSB001:46525 (http://NAOrobUSB001:41597/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 13:16:57,104: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:41597/
+[rospy.internal][INFO] 2018-12-19 13:16:57,104: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:41597/
+[rospy.internal][INFO] 2018-12-19 13:17:02,278: topic[/joint_trajectory/cancel] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:02,278: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:38071/], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:02,279: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:38071/], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:02,280: topic[/joint_trajectory/goal] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:02,281: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:38071/], count 1
+[rospy.internal][ERROR] 2018-12-19 13:17:30,529: Unable to initiate TCP/IP socket to NAOrobUSB001:35351 (http://NAOrobUSB001:38071/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:17:30,529: Unable to initiate TCP/IP socket to NAOrobUSB001:35351 (http://NAOrobUSB001:38071/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:17:30,530: Unable to initiate TCP/IP socket to NAOrobUSB001:35351 (http://NAOrobUSB001:38071/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2018-12-19 13:17:30,602: topic[/joint_trajectory/cancel] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:17:30,602: topic[/joint_trajectory/goal] removing connection to /nao_pose
+[rospy.internal][WARNING] 2018-12-19 13:17:31,530: Unknown error initiating TCP/IP socket to NAOrobUSB001:35351 (http://NAOrobUSB001:38071/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 13:17:31,530: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:38071/
+[rospy.internal][WARNING] 2018-12-19 13:17:31,531: Unknown error initiating TCP/IP socket to NAOrobUSB001:35351 (http://NAOrobUSB001:38071/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2018-12-19 13:17:31,531: Unknown error initiating TCP/IP socket to NAOrobUSB001:35351 (http://NAOrobUSB001:38071/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 13:17:31,531: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:38071/
+[rospy.internal][INFO] 2018-12-19 13:17:31,531: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:38071/
+[rospy.internal][INFO] 2018-12-19 13:17:33,720: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:46333/], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:33,720: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:46333/], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:33,721: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:46333/], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:33,729: topic[/joint_trajectory/cancel] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:33,730: topic[/joint_trajectory/goal] adding connection to [/nao_pose], count 1
+[rospy.internal][ERROR] 2018-12-19 13:18:59,179: Unable to initiate TCP/IP socket to NAOrobUSB001:40915 (http://NAOrobUSB001:46333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:18:59,179: Unable to initiate TCP/IP socket to NAOrobUSB001:40915 (http://NAOrobUSB001:46333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2018-12-19 13:18:59,179: Unable to initiate TCP/IP socket to NAOrobUSB001:40915 (http://NAOrobUSB001:46333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2018-12-19 13:18:59,247: topic[/joint_trajectory/cancel] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:18:59,247: topic[/joint_trajectory/goal] removing connection to /nao_pose
+[rospy.internal][WARNING] 2018-12-19 13:19:00,181: Unknown error initiating TCP/IP socket to NAOrobUSB001:40915 (http://NAOrobUSB001:46333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2018-12-19 13:19:00,181: Unknown error initiating TCP/IP socket to NAOrobUSB001:40915 (http://NAOrobUSB001:46333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2018-12-19 13:19:00,182: Unknown error initiating TCP/IP socket to NAOrobUSB001:40915 (http://NAOrobUSB001:46333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2018-12-19 13:19:00,182: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:46333/
+[rospy.internal][INFO] 2018-12-19 13:19:00,182: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:46333/
+[rospy.internal][INFO] 2018-12-19 13:19:00,183: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:46333/
+[rospy.internal][INFO] 2018-12-19 13:19:01,900: topic[/joint_trajectory/cancel] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:19:01,901: topic[/joint_trajectory/goal] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:19:01,914: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:37811/], count 1
+[rospy.internal][INFO] 2018-12-19 13:19:01,914: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:37811/], count 1
+[rospy.internal][INFO] 2018-12-19 13:19:01,915: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:37811/], count 1
+[rospy.core][INFO] 2018-12-19 14:12:59,659: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-12-19 14:12:59,669: topic[/joint_trajectory/cancel] removing connection to /pose_controller
+[rospy.internal][INFO] 2018-12-19 14:12:59,669: topic[/joint_trajectory/cancel] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 14:12:59,669: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 14:12:59,669: topic[/joint_trajectory/goal] removing connection to /pose_controller
+[rospy.internal][INFO] 2018-12-19 14:12:59,670: topic[/joint_trajectory/goal] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 14:12:59,670: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:34903/
+[rospy.internal][INFO] 2018-12-19 14:12:59,670: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:37811/
+[rospy.internal][INFO] 2018-12-19 14:12:59,670: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:34903/
+[rospy.internal][INFO] 2018-12-19 14:12:59,670: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:37811/
+[rospy.internal][INFO] 2018-12-19 14:12:59,671: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:34903/
+[rospy.internal][INFO] 2018-12-19 14:12:59,671: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:37811/
+[rospy.impl.masterslave][INFO] 2018-12-19 14:12:59,671: signal-2
+[rospy.core][INFO] 2018-12-19 14:12:59,864: signal_shutdown [atexit]

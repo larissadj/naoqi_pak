@@ -1,0 +1,31 @@
+[0m[ INFO] [1545221941.629004186]: rviz version 1.12.16[0m
+[0m[ INFO] [1545221941.629039389]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1545221941.629045660]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1545221941.908327858]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1545221941.908384859]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1545221942.684348231]: Creating 1 swatches[0m
+[0m[ INFO] [1545221949.639376669]: Setting goal: Frame:map, Position(3,067, 1,470, 0,000), Orientation(0,000, 0,000, 0,397, 0,918) = Angle: 0,817
+[0m
+[0m[ INFO] [1545222000.770849571]: Setting goal: Frame:map, Position(1,880, 2,826, 0,000), Orientation(0,000, 0,000, -0,707, 0,707) = Angle: -1,571
+[0m
+[0m[ INFO] [1545222006.517937769]: Setting pose: 1,248 1,986 0,000 [frame=map][0m
+[0m[ INFO] [1545222010.194805732]: Setting goal: Frame:map, Position(1,456, 2,025, 0,000), Orientation(0,000, 0,000, 0,000, 1,000) = Angle: 0,000
+[0m
+[0m[ INFO] [1545222018.138764546]: Setting goal: Frame:map, Position(3,314, 2,371, 0,000), Orientation(0,000, 0,000, 0,000, 1,000) = Angle: 0,000
+[0m
+[0m[ INFO] [1545222090.434812025]: Setting pose: 3,098 1,662 0,000 [frame=map][0m
+[0m[ INFO] [1545222095.762662286]: Setting goal: Frame:map, Position(3,051, 1,773, 0,000), Orientation(0,000, 0,000, 0,000, 1,000) = Angle: 0,000
+[0m
+[0m[ INFO] [1545222120.962765294]: Setting pose: 2,169 1,786 0,805 [frame=map][0m
+[0m[ INFO] [1545222126.221465948]: Setting pose: 2,150 1,971 0,000 [frame=map][0m
+[0m[ INFO] [1545222129.517873850]: Setting pose: 0,293 1,404 -1,556 [frame=map][0m
+[0m[ INFO] [1545222157.936681952]: Setting goal: Frame:map, Position(1,850, 2,682, 0,000), Orientation(0,000, 0,000, 0,885, 0,466) = Angle: 2,173
+[0m
+[0m[ INFO] [1545223866.642190799]: Setting goal: Frame:map, Position(0,816, 1,197, 0,000), Orientation(0,000, 0,000, 0,066, 0,998) = Angle: 0,131
+[0m
+[0m[ INFO] [1545223960.954138257]: Setting pose: 2,523 2,210 0,000 [frame=map][0m
+[0m[ INFO] [1545223969.811825845]: Setting pose: 3,034 1,704 -2,118 [frame=map][0m
+[0m[ INFO] [1545224788.081818111]: Setting goal: Frame:map, Position(2,328, 2,370, 0,000), Orientation(0,000, 0,000, 0,209, 0,978) = Angle: 0,421
+[0m
+[0m[ INFO] [1545225125.633213097]: Setting goal: Frame:map, Position(0,638, 1,258, 0,000), Orientation(0,000, 0,000, 0,894, -0,448) = Angle: -2,212
+[0m

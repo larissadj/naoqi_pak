@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2018-12-19 10:59:02,088: init_node, name[/nao_behaviors], pid[5340]
+[xmlrpc][INFO] 2018-12-19 10:59:02,088: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 10:59:02,088: Started XML-RPC server [http://NAOrobUSB001:38821/]
+[rospy.init][INFO] 2018-12-19 10:59:02,088: ROS Slave URI: [http://NAOrobUSB001:38821/]
+[rospy.impl.masterslave][INFO] 2018-12-19 10:59:02,088: _ready: http://NAOrobUSB001:38821/
+[xmlrpc][INFO] 2018-12-19 10:59:02,089: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-19 10:59:02,089: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-19 10:59:02,189: registered with master
+[rospy.rosout][INFO] 2018-12-19 10:59:02,189: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 10:59:02,195: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 10:59:02,197: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2018-12-19 10:59:02,208: Could not create Proxy to "ALBehaviorManager". 
+Exception message:
+	ALBroker::createBroker
+	Cannot connect to tcp://127.0.0.1:9559
+[rosout][INFO] 2018-12-19 10:59:02,220: nao_behaviors running...
+[rospy.internal][INFO] 2018-12-19 10:59:02,472: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-19 11:00:22,903: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 11:00:22,903: Stopping nao_behaviors
+[rosout][INFO] 2018-12-19 11:00:22,903: nao_behaviors stopped
+[rospy.internal][INFO] 2018-12-19 11:00:22,906: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-19 11:00:22,906: signal-2
+[rosout][INFO] 2018-12-19 11:00:23,069: nao_behaviors stopped.
+[rospy.core][INFO] 2018-12-19 11:00:23,070: signal_shutdown [atexit]

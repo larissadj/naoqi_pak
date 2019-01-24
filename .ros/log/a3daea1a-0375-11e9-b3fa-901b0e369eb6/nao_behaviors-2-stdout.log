@@ -1,0 +1,7 @@
+[I] 6328 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 6328 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.105:46287
+[I] 6328 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:46287
+[INFO] [1545213941.480592]: nao_behaviors running...
+[INFO] [1545215784.002436]: Stopping nao_behaviors
+[INFO] [1545215784.003305]: nao_behaviors stopped
+[INFO] [1545215784.127074]: nao_behaviors stopped.

@@ -1,0 +1,6 @@
+[0m[ INFO] [1547728772.050511987]: Loading nodelet /pepper_robot/camera/ir_rectify_ir of type image_proc/rectify to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728772.050583126]: /pepper_robot/camera/image_mono -> /pepper_robot/camera/ir/image_raw[0m
+[0m[ INFO] [1547728772.050604738]: /pepper_robot/camera/image_rect -> /pepper_robot/camera/ir/image_rect_ir[0m
+[0m[ INFO] [1547728772.054011019]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1547728772.083073198]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1547728783.350555179]: Unloading nodelet /pepper_robot/camera/ir_rectify_ir from manager camera_nodelet_manager[0m

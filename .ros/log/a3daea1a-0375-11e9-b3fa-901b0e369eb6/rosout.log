@@ -1,0 +1,22 @@
+
+
+1545213941.215178724  Node Startup
+1545213941.480642080 INFO [nao_behaviors.py:136(<module>) [topics: /run_behavior/goal, /run_behavior/status, /run_behavior/cancel, /rosout, /run_behavior/feedback, /run_behavior/result] nao_behaviors running...
+1545214500.788076827 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:11(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Trying to start: ros_standup/behavior_1
+1545214500.788101371 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:12(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Waiting for action server to start.
+1545214501.026886181 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:15(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action server started, sending goal.
+1545214523.071784484 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:25(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action finished: SUCCEEDED
+1545214586.288857005 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:11(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Trying to start: ros_standup/behavior_1
+1545214586.288874029 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:12(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Waiting for action server to start.
+1545214586.562981663 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:15(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action server started, sending goal.
+1545214608.535647948 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:25(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action finished: SUCCEEDED
+1545214964.665461361 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:11(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Trying to start: ros_standup/behavior_1
+1545214964.665483594 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:12(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Waiting for action server to start.
+1545214964.916418010 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:15(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action server started, sending goal.
+1545214986.793319799 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:25(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action finished: SUCCEEDED
+1545215016.990380046 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:11(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Trying to start: ros_standup/behavior_1
+1545215016.990410691 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:12(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Waiting for action server to start.
+1545215017.194394535 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:15(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action server started, sending goal.
+1545215039.151877607 INFO [/home/faps/catkin_ws/src/mein_ac/src/ac_node.cpp:25(main) [topics: /rosout, /run_behavior/goal, /run_behavior/cancel] Action finished: SUCCEEDED
+1545215784.002585887 INFO [naoqi_node.py:99(__on_ros_shutdown) [topics: /run_behavior/goal, /run_behavior/status, /run_behavior/cancel, /rosout, /run_behavior/feedback, /run_behavior/result] Stopping nao_behaviors
+1545215784.003428936 INFO [naoqi_node.py:106(__on_ros_shutdown) [topics: /run_behavior/goal, /run_behavior/status, /run_behavior/cancel, /rosout, /run_behavior/feedback, /run_behavior/result] nao_behaviors stopped

@@ -1,0 +1,79 @@
+[rospy.client][INFO] 2018-12-19 12:56:03,206: init_node, name[/naoqi_joint_states], pid[5247]
+[xmlrpc][INFO] 2018-12-19 12:56:03,206: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:56:03,207: Started XML-RPC server [http://NAOrobUSB001:46125/]
+[rospy.init][INFO] 2018-12-19 12:56:03,207: ROS Slave URI: [http://NAOrobUSB001:46125/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:56:03,207: _ready: http://NAOrobUSB001:46125/
+[rospy.registration][INFO] 2018-12-19 12:56:03,207: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 12:56:03,207: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:56:03,307: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:56:03,307: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:56:03,309: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:56:03,311: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:56:03,319: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-19 12:56:03,351: nao_joint_states initialized
+[rospy.internal][INFO] 2018-12-19 12:56:03,410: topic[/tf] adding connection to [/naoqi_moveto], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,423: topic[/joint_stiffness] adding connection to [/pose_controller], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,605: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,606: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2018-12-19 12:56:03,608: topic[/tf] adding connection to [/base_footprint], count 1
+[rospy.internal][INFO] 2018-12-19 12:56:03,609: topic[/joint_states] adding connection to [/base_footprint], count 1
+[rospy.internal][INFO] 2018-12-19 12:59:15,691: topic[/tf] adding connection to [/fake_localization], count 2
+[rospy.internal][INFO] 2018-12-19 12:59:15,691: topic[/odom] adding connection to [/fake_localization], count 0
+[rospy.internal][INFO] 2018-12-19 12:59:15,839: topic[/joint_stiffness] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 12:59:16,416: topic[/tf] adding connection to [/footstep_navigation], count 3
+[rospy.internal][INFO] 2018-12-19 12:59:17,302: topic[/tf] adding connection to [/rviz], count 4
+[rospy.internal][INFO] 2018-12-19 13:00:45,581: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2018-12-19 13:00:48,316: topic[/joint_stiffness] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:00:48,420: topic[/tf] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:00:48,460: topic[/odom] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:00:48,461: topic[/tf] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:00:55,544: topic[/tf] adding connection to [/fake_localization], count 2
+[rospy.internal][INFO] 2018-12-19 13:00:55,544: topic[/tf] adding connection to [/footstep_navigation], count 3
+[rospy.internal][INFO] 2018-12-19 13:00:55,545: topic[/odom] adding connection to [/fake_localization], count 0
+[rospy.internal][INFO] 2018-12-19 13:00:55,655: topic[/joint_stiffness] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:00:55,852: topic[/tf] adding connection to [/rviz], count 4
+[rospy.internal][INFO] 2018-12-19 13:16:56,100: topic[/tf] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:16:56,124: topic[/joint_stiffness] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:16:56,221: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2018-12-19 13:16:56,221: topic[/tf] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:16:56,221: topic[/odom] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:17:02,137: topic[/tf] adding connection to [/fake_localization], count 2
+[rospy.internal][INFO] 2018-12-19 13:17:02,137: topic[/odom] adding connection to [/fake_localization], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:02,139: topic[/tf] adding connection to [/footstep_navigation], count 3
+[rospy.internal][INFO] 2018-12-19 13:17:02,284: topic[/joint_stiffness] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:02,440: topic[/tf] adding connection to [/rviz], count 4
+[rospy.internal][INFO] 2018-12-19 13:17:30,501: topic[/tf] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:17:30,581: topic[/joint_stiffness] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:17:30,621: topic[/tf] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:17:30,621: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2018-12-19 13:17:30,621: topic[/odom] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:17:33,607: topic[/tf] adding connection to [/fake_localization], count 2
+[rospy.internal][INFO] 2018-12-19 13:17:33,608: topic[/tf] adding connection to [/footstep_navigation], count 3
+[rospy.internal][INFO] 2018-12-19 13:17:33,609: topic[/odom] adding connection to [/fake_localization], count 0
+[rospy.internal][INFO] 2018-12-19 13:17:33,737: topic[/joint_stiffness] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:17:33,908: topic[/tf] adding connection to [/rviz], count 4
+[rospy.internal][INFO] 2018-12-19 13:18:59,223: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2018-12-19 13:18:59,224: topic[/joint_stiffness] removing connection to /nao_pose
+[rospy.internal][INFO] 2018-12-19 13:18:59,261: topic[/tf] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:18:59,261: topic[/tf] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 13:18:59,261: topic[/odom] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 13:19:01,756: topic[/tf] adding connection to [/fake_localization], count 2
+[rospy.internal][INFO] 2018-12-19 13:19:01,756: topic[/odom] adding connection to [/fake_localization], count 0
+[rospy.internal][INFO] 2018-12-19 13:19:01,757: topic[/tf] adding connection to [/footstep_navigation], count 3
+[rospy.internal][INFO] 2018-12-19 13:19:01,904: topic[/joint_stiffness] adding connection to [/nao_pose], count 1
+[rospy.internal][INFO] 2018-12-19 13:19:02,059: topic[/tf] adding connection to [/rviz], count 4
+[rospy.core][INFO] 2018-12-19 14:12:59,339: signal_shutdown [No NaoQI available anymore]
+[rosout][INFO] 2018-12-19 14:12:59,339: Stopping naoqi_joint_states
+[rospy.internal][INFO] 2018-12-19 14:12:59,348: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2018-12-19 14:12:59,348: topic[/joint_states] removing connection to /base_footprint
+[rospy.internal][INFO] 2018-12-19 14:12:59,348: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 14:12:59,348: topic[/tf] removing connection to /naoqi_moveto
+[rospy.internal][INFO] 2018-12-19 14:12:59,349: topic[/tf] removing connection to /base_footprint
+[rospy.internal][INFO] 2018-12-19 14:12:59,349: topic[/tf] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 14:12:59,349: topic[/tf] removing connection to /footstep_navigation
+[rospy.internal][INFO] 2018-12-19 14:12:59,349: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2018-12-19 14:12:59,350: topic[/odom] removing connection to /fake_localization
+[rospy.internal][INFO] 2018-12-19 14:12:59,350: topic[/joint_stiffness] removing connection to /pose_controller
+[rospy.internal][INFO] 2018-12-19 14:12:59,350: topic[/joint_stiffness] removing connection to /nao_pose
+[rospy.impl.masterslave][INFO] 2018-12-19 14:12:59,350: No NaoQI available anymore
+[rospy.core][INFO] 2018-12-19 14:12:59,482: signal_shutdown [atexit]

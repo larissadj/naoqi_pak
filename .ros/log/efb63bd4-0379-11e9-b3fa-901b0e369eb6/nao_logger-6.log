@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2018-12-19 12:53:14,833: init_node, name[/nao_logger], pid[3979]
+[xmlrpc][INFO] 2018-12-19 12:53:14,833: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:53:14,834: Started XML-RPC server [http://NAOrobUSB001:40673/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:53:14,834: _ready: http://NAOrobUSB001:40673/
+[rospy.init][INFO] 2018-12-19 12:53:14,834: ROS Slave URI: [http://NAOrobUSB001:40673/]
+[rospy.registration][INFO] 2018-12-19 12:53:14,835: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-12-19 12:53:14,835: Registering publisher topic [/rosout] type [rosgraph_msgs/Log] with master
+[xmlrpc][INFO] 2018-12-19 12:53:14,838: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 12:53:14,935: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:53:14,935: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:53:14,935: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:53:14,936: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:53:14,965: Logger initialized
+[rospy.internal][INFO] 2018-12-19 12:53:15,121: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-19 12:53:39,151: signal_shutdown [signal-2]
+[rosout][INFO] 2018-12-19 12:53:39,152: Stopping nao_logger
+[rosout][INFO] 2018-12-19 12:53:39,152: nao_logger stopped
+[rospy.internal][INFO] 2018-12-19 12:53:39,155: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-12-19 12:53:39,155: signal-2
+[rospy.core][INFO] 2018-12-19 12:53:39,262: signal_shutdown [atexit]

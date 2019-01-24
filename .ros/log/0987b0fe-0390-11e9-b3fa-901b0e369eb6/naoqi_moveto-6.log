@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2018-12-19 14:14:40,222: init_node, name[/naoqi_moveto], pid[31940]
+[xmlrpc][INFO] 2018-12-19 14:14:40,223: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 14:14:40,223: Started XML-RPC server [http://NAOrobUSB001:33809/]
+[rospy.init][INFO] 2018-12-19 14:14:40,223: ROS Slave URI: [http://NAOrobUSB001:33809/]
+[rospy.impl.masterslave][INFO] 2018-12-19 14:14:40,223: _ready: http://NAOrobUSB001:33809/
+[rospy.registration][INFO] 2018-12-19 14:14:40,223: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 14:14:40,223: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 14:14:40,323: registered with master
+[rospy.rosout][INFO] 2018-12-19 14:14:40,323: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 14:14:40,325: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 14:14:40,326: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 14:14:40,333: Connecting to NaoQi at 127.0.0.1:9559
+[rospy.internal][INFO] 2018-12-19 14:14:40,400: topic[/tf_static] adding connection to [http://NAOrobUSB001:38891/], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:40,401: topic[/tf] adding connection to [http://NAOrobUSB001:33953/], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:40,402: topic[/tf] adding connection to [http://NAOrobUSB001:38891/], count 1
+[rospy.internal][INFO] 2018-12-19 14:14:40,402: topic[/tf] adding connection to [http://NAOrobUSB001:39635/], count 2
+[rospy.internal][INFO] 2018-12-19 14:14:40,607: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 14:14:53,872: topic[/tf] adding connection to [http://NAOrobUSB001:39539/], count 3
+[rospy.core][INFO] 2018-12-19 14:35:15,843: signal_shutdown [signal-2]
+[rospy.core][INFO] 2018-12-19 14:35:15,843: signal_shutdown [atexit]

@@ -1,0 +1,42 @@
+[rospy.client][INFO] 2018-12-19 12:53:14,814: init_node, name[/pose_manager], pid[3982]
+[xmlrpc][INFO] 2018-12-19 12:53:14,825: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:53:14,826: Started XML-RPC server [http://NAOrobUSB001:40663/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:53:14,826: _ready: http://NAOrobUSB001:40663/
+[rospy.init][INFO] 2018-12-19 12:53:14,826: ROS Slave URI: [http://NAOrobUSB001:40663/]
+[xmlrpc][INFO] 2018-12-19 12:53:14,827: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-19 12:53:14,827: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-19 12:53:14,927: registered with master
+[rospy.rosout][INFO] 2018-12-19 12:53:14,927: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 12:53:14,929: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 12:53:14,931: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 12:53:14,946: Loaded 7 poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[rospy.internal][INFO] 2018-12-19 12:53:15,115: topic[/joint_trajectory/goal] adding connection to [/pose_controller], count 0
+[rospy.internal][INFO] 2018-12-19 12:53:15,116: topic[/joint_trajectory/cancel] adding connection to [/pose_controller], count 0
+[rospy.internal][INFO] 2018-12-19 12:53:15,122: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-19 12:53:15,161: topic[/joint_trajectory/feedback] adding connection to [http://NAOrobUSB001:33187/], count 0
+[rospy.internal][INFO] 2018-12-19 12:53:15,166: topic[/joint_trajectory/result] adding connection to [http://NAOrobUSB001:33187/], count 0
+[rospy.internal][INFO] 2018-12-19 12:53:15,172: topic[/joint_trajectory/status] adding connection to [http://NAOrobUSB001:33187/], count 0
+[rosout][INFO] 2018-12-19 12:53:15,208: pose_manager running, offering poses: ['crouch', 'zero', 'StandZero', 'init', 'Stand', 'StandInit', 'hello']
+[rospy.core][INFO] 2018-12-19 12:53:39,150: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-12-19 12:53:39,156: topic[/joint_trajectory/cancel] removing connection to /pose_controller
+[rospy.internal][INFO] 2018-12-19 12:53:39,156: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-19 12:53:39,156: topic[/joint_trajectory/goal] removing connection to /pose_controller
+[rospy.internal][INFO] 2018-12-19 12:53:39,156: topic[/joint_trajectory/result] removing connection to http://NAOrobUSB001:33187/
+[rospy.internal][WARNING] 2018-12-19 12:53:39,157: Unknown error initiating TCP/IP socket to NAOrobUSB001:37343 (http://NAOrobUSB001:33187/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2018-12-19 12:53:39,165: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2018-12-19 12:53:39,166: topic[/joint_trajectory/status] removing connection to http://NAOrobUSB001:33187/
+[rospy.internal][INFO] 2018-12-19 12:53:39,166: topic[/joint_trajectory/feedback] removing connection to http://NAOrobUSB001:33187/
+[rospy.impl.masterslave][INFO] 2018-12-19 12:53:39,166: signal-2
+[rospy.core][INFO] 2018-12-19 12:53:39,781: signal_shutdown [atexit]

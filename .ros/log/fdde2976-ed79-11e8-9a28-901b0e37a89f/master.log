@@ -1,0 +1,141 @@
+[rosmaster.main][INFO] 2018-11-21 11:41:24,510: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-11-21 11:41:24,510: Starting ROS Master Node
+[xmlrpc][INFO] 2018-11-21 11:41:24,510: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-11-21 11:41:24,511: Started XML-RPC server [http://NAOrobUSB001:11311/]
+[xmlrpc][INFO] 2018-11-21 11:41:24,511: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-11-21 11:41:24,511: Master initialized: port[11311], uri[http://NAOrobUSB001:11311/]
+[rosmaster.master][INFO] 2018-11-21 11:41:24,598: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-11-21 11:41:24,598: +PARAM [/roslaunch/uris/host_naorobusb001__41311] by /roslaunch
+[rosmaster.master][INFO] 2018-11-21 11:41:24,632: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-11-21 11:41:24,632: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-11-21 11:41:24,635: +SERVICE [/rosout/get_loggers] /rosout http://NAOrobUSB001:37101/
+[rosmaster.master][INFO] 2018-11-21 11:41:24,636: +SERVICE [/rosout/set_logger_level] /rosout http://NAOrobUSB001:37101/
+[rosmaster.master][INFO] 2018-11-21 11:41:24,637: +PUB [/rosout_agg] /rosout http://NAOrobUSB001:37101/
+[rosmaster.master][INFO] 2018-11-21 11:41:24,639: +SUB [/rosout] /rosout http://NAOrobUSB001:37101/
+[rosmaster.master][INFO] 2018-11-21 11:41:40,485: +PUB [/rosout] /talker http://NAOrobUSB001:39399/
+[rosmaster.master][INFO] 2018-11-21 11:41:40,487: +SERVICE [/talker/get_loggers] /talker http://NAOrobUSB001:39399/
+[rosmaster.master][INFO] 2018-11-21 11:41:40,487: +SERVICE [/talker/set_logger_level] /talker http://NAOrobUSB001:39399/
+[rosmaster.master][INFO] 2018-11-21 11:41:40,488: +PUB [/chatter] /talker http://NAOrobUSB001:39399/
+[rosmaster.master][INFO] 2018-11-21 11:41:40,529: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39399/']
+[rosmaster.master][INFO] 2018-11-21 11:41:40,531: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39399/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:41:44,376: +PUB [/rosout] /listener http://NAOrobUSB001:36847/
+[rosmaster.master][INFO] 2018-11-21 11:41:44,377: +SERVICE [/listener/get_loggers] /listener http://NAOrobUSB001:36847/
+[rosmaster.master][INFO] 2018-11-21 11:41:44,377: +SERVICE [/listener/set_logger_level] /listener http://NAOrobUSB001:36847/
+[rosmaster.master][INFO] 2018-11-21 11:41:44,380: +SUB [/chatter] /listener http://NAOrobUSB001:36847/
+[rosmaster.master][INFO] 2018-11-21 11:41:44,434: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39399/', 'http://NAOrobUSB001:36847/']
+[rosmaster.master][INFO] 2018-11-21 11:41:44,435: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39399/', 'http://NAOrobUSB001:36847/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:41:53,249: +PUB [/rosout] /rostopic_6330_1542796913124 http://NAOrobUSB001:38047/
+[rosmaster.master][INFO] 2018-11-21 11:41:53,251: +SERVICE [/rostopic_6330_1542796913124/get_loggers] /rostopic_6330_1542796913124 http://NAOrobUSB001:38047/
+[rosmaster.master][INFO] 2018-11-21 11:41:53,252: +SERVICE [/rostopic_6330_1542796913124/set_logger_level] /rostopic_6330_1542796913124 http://NAOrobUSB001:38047/
+[rosmaster.master][INFO] 2018-11-21 11:41:53,254: +SUB [/chatter] /rostopic_6330_1542796913124 http://NAOrobUSB001:38047/
+[rosmaster.master][INFO] 2018-11-21 11:41:53,345: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39399/', 'http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/']
+[rosmaster.master][INFO] 2018-11-21 11:41:53,346: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39399/', 'http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:09,282: -PUB [/rosout] /talker http://NAOrobUSB001:39399/
+[rosmaster.master][INFO] 2018-11-21 11:42:09,282: -PUB [/chatter] /talker http://NAOrobUSB001:39399/
+[rosmaster.master][INFO] 2018-11-21 11:42:09,283: -SERVICE [/talker/get_loggers] /talker rosrpc://NAOrobUSB001:37983
+[rosmaster.master][INFO] 2018-11-21 11:42:09,284: -SERVICE [/talker/set_logger_level] /talker rosrpc://NAOrobUSB001:37983
+[rosmaster.master][INFO] 2018-11-21 11:42:09,365: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/']
+[rosmaster.master][INFO] 2018-11-21 11:42:09,365: publisherUpdate[/chatter] -> http://NAOrobUSB001:36847/ []
+[rosmaster.master][INFO] 2018-11-21 11:42:09,365: publisherUpdate[/chatter] -> http://NAOrobUSB001:38047/ []
+[rosmaster.master][INFO] 2018-11-21 11:42:09,365: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:09,366: publisherUpdate[/chatter] -> http://NAOrobUSB001:36847/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:09,366: publisherUpdate[/chatter] -> http://NAOrobUSB001:38047/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:33,519: +PUB [/rosout] /rqt_gui_py_node_6360 http://NAOrobUSB001:42415/
+[rosmaster.master][INFO] 2018-11-21 11:42:33,521: +SERVICE [/rqt_gui_py_node_6360/get_loggers] /rqt_gui_py_node_6360 http://NAOrobUSB001:42415/
+[rosmaster.master][INFO] 2018-11-21 11:42:33,522: +SERVICE [/rqt_gui_py_node_6360/set_logger_level] /rqt_gui_py_node_6360 http://NAOrobUSB001:42415/
+[rosmaster.master][INFO] 2018-11-21 11:42:33,533: +SUB [/statistics] /rqt_gui_py_node_6360 http://NAOrobUSB001:42415/
+[rosmaster.master][INFO] 2018-11-21 11:42:33,594: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:42415/']
+[rosmaster.master][INFO] 2018-11-21 11:42:33,595: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:42415/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:53,248: +PUB [/rosout] /talker http://NAOrobUSB001:43561/
+[rosmaster.master][INFO] 2018-11-21 11:42:53,248: +SERVICE [/talker/get_loggers] /talker http://NAOrobUSB001:43561/
+[rosmaster.master][INFO] 2018-11-21 11:42:53,249: +SERVICE [/talker/set_logger_level] /talker http://NAOrobUSB001:43561/
+[rosmaster.master][INFO] 2018-11-21 11:42:53,250: +PUB [/chatter] /talker http://NAOrobUSB001:43561/
+[rosmaster.master][INFO] 2018-11-21 11:42:53,318: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:42415/', 'http://NAOrobUSB001:43561/']
+[rosmaster.master][INFO] 2018-11-21 11:42:53,318: publisherUpdate[/chatter] -> http://NAOrobUSB001:38047/ ['http://NAOrobUSB001:43561/']
+[rosmaster.master][INFO] 2018-11-21 11:42:53,318: publisherUpdate[/chatter] -> http://NAOrobUSB001:36847/ ['http://NAOrobUSB001:43561/']
+[rosmaster.master][INFO] 2018-11-21 11:42:53,319: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:42415/', 'http://NAOrobUSB001:43561/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:53,319: publisherUpdate[/chatter] -> http://NAOrobUSB001:36847/ ['http://NAOrobUSB001:43561/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:53,319: publisherUpdate[/chatter] -> http://NAOrobUSB001:38047/ ['http://NAOrobUSB001:43561/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:42:58,842: -SUB [/statistics] /rqt_gui_py_node_6360 http://NAOrobUSB001:42415/
+[rosmaster.master][INFO] 2018-11-21 11:42:58,842: -PUB [/rosout] /rqt_gui_py_node_6360 http://NAOrobUSB001:42415/
+[rosmaster.master][INFO] 2018-11-21 11:42:58,842: -SERVICE [/rqt_gui_py_node_6360/set_logger_level] /rqt_gui_py_node_6360 rosrpc://NAOrobUSB001:34409
+[rosmaster.master][INFO] 2018-11-21 11:42:58,842: -SERVICE [/rqt_gui_py_node_6360/get_loggers] /rqt_gui_py_node_6360 rosrpc://NAOrobUSB001:34409
+[rosmaster.master][INFO] 2018-11-21 11:42:58,926: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:43561/']
+[rosmaster.master][INFO] 2018-11-21 11:42:58,926: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:43561/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:43:03,379: +PUB [/rosout] /rqt_gui_py_node_6420 http://NAOrobUSB001:42823/
+[rosmaster.master][INFO] 2018-11-21 11:43:03,381: +SERVICE [/rqt_gui_py_node_6420/get_loggers] /rqt_gui_py_node_6420 http://NAOrobUSB001:42823/
+[rosmaster.master][INFO] 2018-11-21 11:43:03,382: +SERVICE [/rqt_gui_py_node_6420/set_logger_level] /rqt_gui_py_node_6420 http://NAOrobUSB001:42823/
+[rosmaster.master][INFO] 2018-11-21 11:43:03,392: +SUB [/statistics] /rqt_gui_py_node_6420 http://NAOrobUSB001:42823/
+[rosmaster.master][INFO] 2018-11-21 11:43:03,431: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']
+[rosmaster.master][INFO] 2018-11-21 11:43:03,431: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:38047/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:43:12,208: -SUB [/chatter] /rostopic_6330_1542796913124 http://NAOrobUSB001:38047/
+[rosmaster.master][INFO] 2018-11-21 11:43:12,208: -PUB [/rosout] /rostopic_6330_1542796913124 http://NAOrobUSB001:38047/
+[rosmaster.master][INFO] 2018-11-21 11:43:12,208: -SERVICE [/rostopic_6330_1542796913124/get_loggers] /rostopic_6330_1542796913124 rosrpc://NAOrobUSB001:41249
+[rosmaster.master][INFO] 2018-11-21 11:43:12,208: -SERVICE [/rostopic_6330_1542796913124/set_logger_level] /rostopic_6330_1542796913124 rosrpc://NAOrobUSB001:41249
+[rosmaster.master][INFO] 2018-11-21 11:43:12,241: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']
+[rosmaster.master][INFO] 2018-11-21 11:43:12,242: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:45:47,386: +PUB [/rosout] /rostopic_6523_1542797147266 http://NAOrobUSB001:46195/
+[rosmaster.master][INFO] 2018-11-21 11:45:47,388: +SERVICE [/rostopic_6523_1542797147266/get_loggers] /rostopic_6523_1542797147266 http://NAOrobUSB001:46195/
+[rosmaster.master][INFO] 2018-11-21 11:45:47,389: +SERVICE [/rostopic_6523_1542797147266/set_logger_level] /rostopic_6523_1542797147266 http://NAOrobUSB001:46195/
+[rosmaster.master][INFO] 2018-11-21 11:45:47,392: +SUB [/chatter] /rostopic_6523_1542797147266 http://NAOrobUSB001:46195/
+[rosmaster.master][INFO] 2018-11-21 11:45:47,421: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/', 'http://NAOrobUSB001:46195/']
+[rosmaster.master][INFO] 2018-11-21 11:45:47,421: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/', 'http://NAOrobUSB001:46195/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:46:19,560: -SUB [/chatter] /rostopic_6523_1542797147266 http://NAOrobUSB001:46195/
+[rosmaster.master][INFO] 2018-11-21 11:46:19,560: -PUB [/rosout] /rostopic_6523_1542797147266 http://NAOrobUSB001:46195/
+[rosmaster.master][INFO] 2018-11-21 11:46:19,560: -SERVICE [/rostopic_6523_1542797147266/set_logger_level] /rostopic_6523_1542797147266 rosrpc://NAOrobUSB001:44719
+[rosmaster.master][INFO] 2018-11-21 11:46:19,560: -SERVICE [/rostopic_6523_1542797147266/get_loggers] /rostopic_6523_1542797147266 rosrpc://NAOrobUSB001:44719
+[rosmaster.master][INFO] 2018-11-21 11:46:19,657: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']
+[rosmaster.master][INFO] 2018-11-21 11:46:19,657: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:49:21,657: +PUB [/rosout] /rqt_gui_py_node_6569 http://NAOrobUSB001:42447/
+[rosmaster.master][INFO] 2018-11-21 11:49:21,659: +SERVICE [/rqt_gui_py_node_6569/get_loggers] /rqt_gui_py_node_6569 http://NAOrobUSB001:42447/
+[rosmaster.master][INFO] 2018-11-21 11:49:21,660: +SERVICE [/rqt_gui_py_node_6569/set_logger_level] /rqt_gui_py_node_6569 http://NAOrobUSB001:42447/
+[rosmaster.master][INFO] 2018-11-21 11:49:21,670: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/', 'http://NAOrobUSB001:42447/']
+[rosmaster.master][INFO] 2018-11-21 11:49:21,671: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/', 'http://NAOrobUSB001:42447/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:49:21,671: +SUB [/statistics] /rqt_gui_py_node_6569 http://NAOrobUSB001:42447/
+[rosmaster.master][INFO] 2018-11-21 11:49:44,449: -SUB [/statistics] /rqt_gui_py_node_6569 http://NAOrobUSB001:42447/
+[rosmaster.master][INFO] 2018-11-21 11:49:44,450: -PUB [/rosout] /rqt_gui_py_node_6569 http://NAOrobUSB001:42447/
+[rosmaster.master][INFO] 2018-11-21 11:49:44,450: -SERVICE [/rqt_gui_py_node_6569/set_logger_level] /rqt_gui_py_node_6569 rosrpc://NAOrobUSB001:33511
+[rosmaster.master][INFO] 2018-11-21 11:49:44,450: -SERVICE [/rqt_gui_py_node_6569/get_loggers] /rqt_gui_py_node_6569 rosrpc://NAOrobUSB001:33511
+[rosmaster.master][INFO] 2018-11-21 11:49:44,497: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']
+[rosmaster.master][INFO] 2018-11-21 11:49:44,498: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/', 'http://NAOrobUSB001:42823/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:49:54,961: -SUB [/statistics] /rqt_gui_py_node_6420 http://NAOrobUSB001:42823/
+[rosmaster.master][INFO] 2018-11-21 11:49:54,962: -PUB [/rosout] /rqt_gui_py_node_6420 http://NAOrobUSB001:42823/
+[rosmaster.master][INFO] 2018-11-21 11:49:54,962: -SERVICE [/rqt_gui_py_node_6420/set_logger_level] /rqt_gui_py_node_6420 rosrpc://NAOrobUSB001:41573
+[rosmaster.master][INFO] 2018-11-21 11:49:54,962: -SERVICE [/rqt_gui_py_node_6420/get_loggers] /rqt_gui_py_node_6420 rosrpc://NAOrobUSB001:41573
+[rosmaster.master][INFO] 2018-11-21 11:49:55,010: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/']
+[rosmaster.master][INFO] 2018-11-21 11:49:55,010: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:36847/', 'http://NAOrobUSB001:43561/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 11:56:21,647: -PUB [/rosout] /listener http://NAOrobUSB001:36847/
+[rosmaster.master][INFO] 2018-11-21 11:56:21,647: -SUB [/chatter] /listener http://NAOrobUSB001:36847/
+[rosmaster.master][INFO] 2018-11-21 11:56:21,648: -SERVICE [/listener/get_loggers] /listener rosrpc://NAOrobUSB001:32993
+[rosmaster.master][INFO] 2018-11-21 11:56:21,648: -SERVICE [/listener/set_logger_level] /listener rosrpc://NAOrobUSB001:32993
+[rosmaster.master][INFO] 2018-11-21 11:56:21,667: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:43561/']
+[rosmaster.master][INFO] 2018-11-21 11:56:21,668: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:43561/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 12:21:36,982: -PUB [/rosout] /talker http://NAOrobUSB001:43561/
+[rosmaster.master][INFO] 2018-11-21 12:21:36,983: -PUB [/chatter] /talker http://NAOrobUSB001:43561/
+[rosmaster.master][INFO] 2018-11-21 12:21:36,984: -SERVICE [/talker/get_loggers] /talker rosrpc://NAOrobUSB001:55931
+[rosmaster.master][INFO] 2018-11-21 12:21:36,984: -SERVICE [/talker/set_logger_level] /talker rosrpc://NAOrobUSB001:55931
+[rosmaster.master][INFO] 2018-11-21 12:21:37,061: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ []
+[rosmaster.master][INFO] 2018-11-21 12:21:37,062: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 13:15:40,137: +PUB [/rosout] /talker http://NAOrobUSB001:39205/
+[rosmaster.master][INFO] 2018-11-21 13:15:40,137: +SERVICE [/talker/get_loggers] /talker http://NAOrobUSB001:39205/
+[rosmaster.master][INFO] 2018-11-21 13:15:40,138: +SERVICE [/talker/set_logger_level] /talker http://NAOrobUSB001:39205/
+[rosmaster.master][INFO] 2018-11-21 13:15:40,139: +PUB [/chatter] /talker http://NAOrobUSB001:39205/
+[rosmaster.master][INFO] 2018-11-21 13:15:40,212: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39205/']
+[rosmaster.master][INFO] 2018-11-21 13:15:40,212: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:39205/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 13:16:48,719: +PUB [/rosout] /talker http://NAOrobUSB001:44701/
+[rosmaster.master][INFO] 2018-11-21 13:16:48,719: +SERVICE [/talker/get_loggers] /talker http://NAOrobUSB001:44701/
+[rosmaster.master][INFO] 2018-11-21 13:16:48,720: +SERVICE [/talker/set_logger_level] /talker http://NAOrobUSB001:44701/
+[rosmaster.master][INFO] 2018-11-21 13:16:48,721: +PUB [/chatter] /talker http://NAOrobUSB001:44701/
+[rosmaster.master][INFO] 2018-11-21 13:16:48,795: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:44701/']
+[rosmaster.master][INFO] 2018-11-21 13:16:48,795: publisherUpdate[/rosout] -> http://NAOrobUSB001:37101/ ['http://NAOrobUSB001:44701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-11-21 13:16:48,896: -PUB [/rosout] /talker http://NAOrobUSB001:39205/
+[rosmaster.master][INFO] 2018-11-21 13:16:48,896: -PUB [/chatter] /talker http://NAOrobUSB001:39205/
+[rosmaster.master][INFO] 2018-11-21 13:16:48,897: -SERVICE [/talker/get_loggers] /talker rosrpc://NAOrobUSB001:59015
+[rosmaster.master][INFO] 2018-11-21 13:16:48,897: -SERVICE [/talker/set_logger_level] /talker rosrpc://NAOrobUSB001:59015
+[rosmaster.master][INFO] 2018-11-21 13:40:26,115: -PUB [/rosout_agg] /rosout http://NAOrobUSB001:37101/
+[rosmaster.master][INFO] 2018-11-21 13:40:26,115: -SUB [/rosout] /rosout http://NAOrobUSB001:37101/
+[rosmaster.master][INFO] 2018-11-21 13:40:26,116: -SERVICE [/rosout/get_loggers] /rosout rosrpc://NAOrobUSB001:33325
+[rosmaster.master][INFO] 2018-11-21 13:40:26,116: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://NAOrobUSB001:33325
+[rosmaster.main][INFO] 2018-11-21 13:40:26,150: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-11-21 13:40:26,150: stopping master...
+[rospy.core][INFO] 2018-11-21 13:40:26,150: signal_shutdown [atexit]

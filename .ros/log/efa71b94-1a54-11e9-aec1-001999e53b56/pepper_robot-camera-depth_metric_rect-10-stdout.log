@@ -1,0 +1,4 @@
+[0m[ INFO] [1547728772.082244439]: Loading nodelet /pepper_robot/camera/depth_metric_rect of type depth_image_proc/convert_metric to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728772.082311828]: /pepper_robot/camera/image -> /pepper_robot/camera/depth/image_rect[0m
+[0m[ INFO] [1547728772.082331677]: /pepper_robot/camera/image_raw -> /pepper_robot/camera/depth/image_rect_raw[0m
+[0m[ INFO] [1547728783.053947854]: Unloading nodelet /pepper_robot/camera/depth_metric_rect from manager camera_nodelet_manager[0m

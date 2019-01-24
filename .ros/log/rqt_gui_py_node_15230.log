@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2018-11-21 14:20:30,368: init_node, name[/rqt_gui_py_node_15230], pid[15230]
+[xmlrpc][INFO] 2018-11-21 14:20:30,368: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-11-21 14:20:30,369: Started XML-RPC server [http://NAOrobUSB001:45473/]
+[rospy.init][INFO] 2018-11-21 14:20:30,369: ROS Slave URI: [http://NAOrobUSB001:45473/]
+[rospy.impl.masterslave][INFO] 2018-11-21 14:20:30,369: _ready: http://NAOrobUSB001:45473/
+[rospy.registration][INFO] 2018-11-21 14:20:30,369: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-11-21 14:20:30,369: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-11-21 14:20:30,469: registered with master
+[rospy.rosout][INFO] 2018-11-21 14:20:30,469: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-11-21 14:20:30,470: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-11-21 14:20:30,471: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-11-21 14:20:30,733: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-11-21 14:21:02,592: topic[/erstesTestTopic] adding connection to [http://NAOrobUSB001:46521/], count 0
+[rospy.internal][INFO] 2018-11-21 14:29:24,910: topic impl's ref count is zero, deleting topic /erstesTestTopic...
+[rospy.internal][INFO] 2018-11-21 14:29:24,910: topic[/erstesTestTopic] removing connection to http://NAOrobUSB001:46521/
+[rospy.core][INFO] 2018-11-21 14:29:25,135: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-11-21 14:29:25,137: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2018-11-21 14:29:25,137: atexit

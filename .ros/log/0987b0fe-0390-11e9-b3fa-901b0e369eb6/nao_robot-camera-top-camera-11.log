@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2018-12-19 14:14:40,224: init_node, name[/nao_robot/camera/top/camera], pid[32011]
+[xmlrpc][INFO] 2018-12-19 14:14:40,224: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 14:14:40,224: Started XML-RPC server [http://NAOrobUSB001:44789/]
+[rospy.init][INFO] 2018-12-19 14:14:40,224: ROS Slave URI: [http://NAOrobUSB001:44789/]
+[rospy.impl.masterslave][INFO] 2018-12-19 14:14:40,224: _ready: http://NAOrobUSB001:44789/
+[rospy.registration][INFO] 2018-12-19 14:14:40,225: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-19 14:14:40,225: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-19 14:14:40,324: registered with master
+[rospy.rosout][INFO] 2018-12-19 14:14:40,325: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-19 14:14:40,327: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-19 14:14:40,328: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-19 14:14:40,368: reconfigure changed
+[rosout][INFO] 2018-12-19 14:14:40,368: Changes recorded but not applied as nobody is subscribed to the ROS topics.
+[rosout][INFO] 2018-12-19 14:14:40,392: reconfigure changed
+[rosout][INFO] 2018-12-19 14:14:40,392: Changes recorded but not applied as nobody is subscribed to the ROS topics.
+[rospy.internal][INFO] 2018-12-19 14:14:40,608: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-19 14:35:15,838: signal_shutdown [signal-2]

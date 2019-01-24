@@ -1,0 +1,79 @@
+[0m[ INFO] [1545221941.582409595]: FootstepPlanner heuristic: 2D path euclidean distance with step costs[0m
+[0m[ INFO] [1545221941.583553103]: Planning with ARAPlanner[0m
+[0m[ INFO] [1545221941.583577511]: Search direction: backward planning[0m
+[0m[ INFO] [1545221941.759643695]: GridMap2D created with 400 x 400 cells at 0.010000 resolution.[0m
+[0m[ INFO] [1545221949.639751272]: Goal pose set to (3.066922 1.469690 0.816638)[0m
+[0m[ INFO] [1545221950.246404013]: Robot standing at (-0.001223, 0.050000, 0.000000, 1) (-0.019142, -0.084049, -0.265383, 0).[0m
+[0m[ INFO] [1545221950.246442030]: Resetting planner[0m
+[0m[ INFO] [1545221950.279526639]: Updating the heuristic values.[0m
+[0m[ INFO] [1545221950.307616165]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545221957.251678138]: Solution of size 76 found after 6.944022 s[0m
+[0m[ INFO] [1545221957.251779563]: Expanded states: 423793 total / 423719 new[0m
+[0m[ INFO] [1545221957.251807526]: Final eps: 2.200000[0m
+[0m[ INFO] [1545221957.251815921]: Path cost: 9.053000 (9053)
+[0m
+[0m[ INFO] [1545221957.257067565]: Start walking towards the goal.[0m
+[0m[ INFO] [1545222000.771101321]: Already performing a navigation task. Wait until it is finished.[0m
+[0m[ INFO] [1545222010.195010898]: Already performing a navigation task. Wait until it is finished.[0m
+[0m[ INFO] [1545222018.138914974]: Already performing a navigation task. Wait until it is finished.[0m
+[0m[ INFO] [1545222095.762924068]: Already performing a navigation task. Wait until it is finished.[0m
+[0m[ INFO] [1545222109.002730089]: Succeeded walking to the goal.
+[0m
+[0m[ INFO] [1545222157.937013127]: Goal pose set to (1.850274 2.682008 2.173149)[0m
+[0m[ INFO] [1545222158.518440830]: Robot standing at (3.035000, 1.505000, 0.834485, 1) (3.101542, 1.437167, 0.816638, 0).[0m
+[0m[ INFO] [1545222158.518468361]: Resetting planner[0m
+[0m[ INFO] [1545222158.691147473]: Updating the heuristic values.[0m
+[0m[ INFO] [1545222158.720795689]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545222165.661455333]: Solution of size 44 found after 6.940606 s[0m
+[0m[ INFO] [1545222165.661486387]: Expanded states: 517430 total / 517388 new[0m
+[0m[ INFO] [1545222165.661496772]: Final eps: 2.400000[0m
+[0m[ INFO] [1545222165.661503670]: Path cost: 5.106000 (5106)
+[0m
+[0m[ INFO] [1545222165.664965750]: Start walking towards the goal.[0m
+[0m[ INFO] [1545222252.942689397]: Succeeded walking to the goal.
+[0m
+[0m[ INFO] [1545223866.642412283]: Goal pose set to (0.816208 1.196705 0.131320)[0m
+[0m[ INFO] [1545223867.249517143]: Robot standing at (1.815000, 2.655000, 2.159845, 1) (1.889414, 2.708920, 2.173149, 0).[0m
+[0m[ INFO] [1545223867.249566968]: Resetting planner[0m
+[0m[ INFO] [1545223867.514395812]: Updating the heuristic values.[0m
+[0m[ INFO] [1545223867.544522525]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545223874.485514696]: Solution of size 48 found after 6.940950 s[0m
+[0m[ INFO] [1545223874.485558954]: Expanded states: 473024 total / 472978 new[0m
+[0m[ INFO] [1545223874.485569203]: Final eps: 2.800000[0m
+[0m[ INFO] [1545223874.485578304]: Path cost: 5.715000 (5715)
+[0m
+[0m[ INFO] [1545223874.488240406]: Start walking towards the goal.[0m
+[0m[ INFO] [1545223969.082674155]: Succeeded walking to the goal.
+[0m
+[0m[ INFO] [1545224788.082041094]: Goal pose set to (2.327553 2.369511 0.421139)[0m
+[0m[ INFO] [1545224788.704135598]: Robot standing at (0.805602, 1.248582, 0.119650, 1) (0.822428, 1.149614, 0.131320, 0).[0m
+[0m[ INFO] [1545224788.704175419]: Resetting planner[0m
+[0m[ INFO] [1545224788.976016959]: Updating the heuristic values.[0m
+[0m[ INFO] [1545224789.006722086]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545224795.951350013]: Solution of size 42 found after 6.944577 s[0m
+[0m[ INFO] [1545224795.951381102]: Expanded states: 457388 total / 457348 new[0m
+[0m[ INFO] [1545224795.951391162]: Final eps: 1.800000[0m
+[0m[ INFO] [1545224795.951418133]: Path cost: 4.881000 (4881)
+[0m
+[0m[ INFO] [1545224795.955071393]: Start walking towards the goal.[0m
+[0m[ INFO] [1545224878.922725586]: Succeeded walking to the goal.
+[0m
+[0m[ INFO] [1545225049.502237324]: Goal pose set to (3.100000 3.300000 0.000000)[0m
+[0m[ INFO] [1545225050.099089020]: Robot standing at (2.305000, 2.415000, 0.441786, 1) (2.346972, 2.326161, 0.421139, 0).[0m
+[0m[ INFO] [1545225050.099127340]: Resetting planner[0m
+[0m[ INFO] [1545225050.387960711]: Updating the heuristic values.[0m
+[0m[ INFO] [1545225050.417583411]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545225057.360083250]: Solution of size 48 found after 6.942457 s[0m
+[0m[ INFO] [1545225057.360113915]: Expanded states: 455339 total / 455293 new[0m
+[0m[ INFO] [1545225057.360121951]: Final eps: 2.000000[0m
+[0m[ INFO] [1545225057.360131808]: Path cost: 5.664000 (5664)
+[0m
+[0m[ INFO] [1545225057.363611290]: Start walking towards the goal.[0m
+[0m[ INFO] [1545225125.633431362]: Already performing a navigation task. Wait until it is finished.[0m
+[0m[ INFO] [1545225152.522685878]: Succeeded walking to the goal.
+[0m

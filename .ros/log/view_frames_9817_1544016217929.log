@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2018-12-05 14:23:37,952: init_node, name[/view_frames_9817_1544016217929], pid[9817]
+[xmlrpc][INFO] 2018-12-05 14:23:37,952: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 14:23:37,952: Started XML-RPC server [http://NAOrobUSB001:42647/]
+[rospy.init][INFO] 2018-12-05 14:23:37,952: ROS Slave URI: [http://NAOrobUSB001:42647/]
+[rospy.impl.masterslave][INFO] 2018-12-05 14:23:37,952: _ready: http://NAOrobUSB001:42647/
+[rospy.registration][INFO] 2018-12-05 14:23:37,953: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-05 14:23:37,953: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-05 14:23:38,053: registered with master
+[rospy.rosout][INFO] 2018-12-05 14:23:38,053: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-05 14:23:38,055: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-05 14:23:38,056: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2018-12-05 14:23:38,067: topic[/tf] adding connection to [http://NAOrobUSB001:37933/], count 0
+[rospy.internal][INFO] 2018-12-05 14:23:38,271: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-12-05 14:23:43,118: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-12-05 14:23:43,121: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-05 14:23:43,121: topic[/tf] removing connection to http://NAOrobUSB001:37933/
+[rospy.impl.masterslave][INFO] 2018-12-05 14:23:43,121: atexit
+[rospy.internal][WARNING] 2018-12-05 14:23:43,123: Unknown error initiating TCP/IP socket to NAOrobUSB001:47967 (http://NAOrobUSB001:37933/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

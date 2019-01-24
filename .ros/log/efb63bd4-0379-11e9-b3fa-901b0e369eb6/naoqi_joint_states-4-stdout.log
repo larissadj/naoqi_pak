@@ -1,0 +1,7 @@
+[INFO] [1545220395.369895]: Connecting to NaoQi at 127.0.0.1:9559
+[I] 3966 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 3966 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.105:46561
+[I] 3966 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:46561
+[INFO] [1545220395.405920]: nao_joint_states initialized
+[INFO] [1545220419.259822]: Stopping naoqi_joint_states
+[INFO] [1545220419.272113]: naoqi_joint_states stopped

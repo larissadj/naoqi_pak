@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2018-12-05 11:49:55,453: init_node, name[/naoqi_joint_states], pid[14439]
+[xmlrpc][INFO] 2018-12-05 11:49:55,453: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 11:49:55,453: Started XML-RPC server [http://NAOrobUSB001:38817/]
+[rospy.init][INFO] 2018-12-05 11:49:55,453: ROS Slave URI: [http://NAOrobUSB001:38817/]
+[rospy.impl.masterslave][INFO] 2018-12-05 11:49:55,453: _ready: http://NAOrobUSB001:38817/
+[rospy.registration][INFO] 2018-12-05 11:49:55,454: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-05 11:49:55,454: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-05 11:49:55,554: registered with master
+[rospy.rosout][INFO] 2018-12-05 11:49:55,554: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-12-05 11:49:55,558: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-12-05 11:49:55,560: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2018-12-05 11:49:55,571: Connecting to NaoQi at 127.0.0.1:9559
+[rosout][INFO] 2018-12-05 11:49:55,602: nao_joint_states initialized
+[rospy.internal][INFO] 2018-12-05 11:49:55,628: topic[/tf] adding connection to [/naoqi_moveto], count 0
+[rospy.internal][INFO] 2018-12-05 11:49:55,636: topic[/joint_stiffness] adding connection to [/pose_controller], count 0
+[rospy.internal][INFO] 2018-12-05 11:49:55,822: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-12-05 11:49:55,823: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2018-12-05 11:49:55,824: topic[/tf] adding connection to [/base_footprint], count 1
+[rospy.internal][INFO] 2018-12-05 11:49:55,824: topic[/joint_states] adding connection to [/base_footprint], count 1
+[rospy.internal][INFO] 2018-12-05 11:53:00,789: topic[/tf] adding connection to [/rviz_1544007180284596622], count 2
+[rospy.internal][INFO] 2018-12-05 12:23:22,577: topic[/tf] adding connection to [/rviz_1544009002112446829], count 3
+[rospy.internal][INFO] 2018-12-05 12:23:43,112: topic[/tf] removing connection to /rviz_1544007180284596622
+[rospy.core][INFO] 2018-12-05 13:45:39,673: signal_shutdown [No NaoQI available anymore]
+[rosout][INFO] 2018-12-05 13:45:39,673: Stopping naoqi_joint_states
+[rospy.internal][INFO] 2018-12-05 13:45:39,687: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2018-12-05 13:45:39,687: topic[/joint_states] removing connection to /base_footprint
+[rospy.internal][INFO] 2018-12-05 13:45:39,688: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-12-05 13:45:39,688: topic[/tf] removing connection to /naoqi_moveto
+[rospy.internal][INFO] 2018-12-05 13:45:39,688: topic[/tf] removing connection to /base_footprint
+[rospy.internal][INFO] 2018-12-05 13:45:39,688: topic[/tf] removing connection to /rviz_1544009002112446829
+[rospy.internal][INFO] 2018-12-05 13:45:39,688: topic[/joint_stiffness] removing connection to /pose_controller
+[rospy.impl.masterslave][INFO] 2018-12-05 13:45:39,688: No NaoQI available anymore
+[rospy.core][INFO] 2018-12-05 13:45:39,910: signal_shutdown [atexit]

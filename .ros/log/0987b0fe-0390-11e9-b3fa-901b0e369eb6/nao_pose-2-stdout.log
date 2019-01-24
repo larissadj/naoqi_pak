@@ -1,0 +1,9 @@
+[INFO] [1545225294.094522]: Connecting to NaoQi at 127.0.0.1:9559
+[I] 32737 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 32737 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.105:39621
+[I] 32737 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:39621
+[INFO] [1545225294.174653]: nao_controller initialized
+[INFO] [1545225294.175029]: nao pose_controller running...
+[INFO] [1545226515.886058]: Stopping pose_controller
+[INFO] [1545226515.917415]: pose_controller stopped
+[INFO] [1545226516.039028]: nao pose_controller stopped.

@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2018-12-05 13:49:46,698: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-05 13:49:46,699: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-05 13:49:46,699: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-12-05 13:49:46,699: Started XML-RPC server [http://NAOrobUSB001:11311/]
+[rosmaster.master][INFO] 2018-12-05 13:49:46,699: Master initialized: port[11311], uri[http://NAOrobUSB001:11311/]
+[xmlrpc][INFO] 2018-12-05 13:49:46,699: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-05 13:49:46,788: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 13:49:46,789: +PARAM [/roslaunch/uris/host_naorobusb001__39157] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 13:49:46,844: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 13:49:46,844: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-05 13:49:46,848: +SERVICE [/rosout/get_loggers] /rosout http://NAOrobUSB001:37517/
+[rosmaster.master][INFO] 2018-12-05 13:49:46,848: +SERVICE [/rosout/set_logger_level] /rosout http://NAOrobUSB001:37517/
+[rosmaster.master][INFO] 2018-12-05 13:49:46,849: +PUB [/rosout_agg] /rosout http://NAOrobUSB001:37517/
+[rosmaster.master][INFO] 2018-12-05 13:49:46,851: +SUB [/rosout] /rosout http://NAOrobUSB001:37517/
+[rosmaster.master][INFO] 2018-12-05 13:50:05,882: -PUB [/rosout_agg] /rosout http://NAOrobUSB001:37517/
+[rosmaster.master][INFO] 2018-12-05 13:50:05,883: -SUB [/rosout] /rosout http://NAOrobUSB001:37517/
+[rosmaster.master][INFO] 2018-12-05 13:50:05,883: -SERVICE [/rosout/get_loggers] /rosout rosrpc://NAOrobUSB001:43327
+[rosmaster.master][INFO] 2018-12-05 13:50:05,884: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://NAOrobUSB001:43327
+[rosmaster.main][INFO] 2018-12-05 13:50:05,920: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-12-05 13:50:05,920: stopping master...
+[rospy.core][INFO] 2018-12-05 13:50:05,920: signal_shutdown [atexit]

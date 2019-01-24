@@ -1,0 +1,10 @@
+[INFO] [1545220563.319139]: Connecting to NaoQi at 127.0.0.1:9559
+[I] 5247 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 5247 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.105:44363
+[I] 5247 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:44363
+[INFO] [1545220563.351829]: nao_joint_states initialized
+Error accessing ALMemory, exiting...
+
+	ALMotion::getPosition
+	module destroyed
+[INFO] [1545225179.339917]: Stopping naoqi_joint_states

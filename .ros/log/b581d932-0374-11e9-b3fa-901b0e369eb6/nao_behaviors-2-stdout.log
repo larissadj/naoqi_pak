@@ -1,0 +1,9 @@
+[I] 5340 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[W] 5375 qimessaging.transportsocket: connect: Connection refused
+[I] 5340 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.105:36961
+[I] 5340 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:36961
+[W] 5370 qitype.signal: Exception caught from signal subscriber: boost: mutex lock failed in pthread_mutex_lock: Invalid argument
+[INFO] [1545213542.220217]: nao_behaviors running...
+[INFO] [1545213622.903176]: Stopping nao_behaviors
+[INFO] [1545213622.903402]: nao_behaviors stopped
+[INFO] [1545213623.069934]: nao_behaviors stopped.

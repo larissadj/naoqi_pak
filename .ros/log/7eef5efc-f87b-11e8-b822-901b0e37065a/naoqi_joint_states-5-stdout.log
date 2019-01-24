@@ -1,0 +1,10 @@
+[INFO] [1544006995.571150]: Connecting to NaoQi at 127.0.0.1:9559
+[I] 14439 qimessaging.session: Session listener created on tcp://0.0.0.0:0
+[I] 14439 qimessaging.transportserver: TransportServer will listen on: tcp://131.188.143.101:39901
+[I] 14439 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:39901
+[INFO] [1544006995.602821]: nao_joint_states initialized
+Error accessing ALMemory, exiting...
+
+	ALMemory::getListData
+	module destroyed
+[INFO] [1544013939.673794]: Stopping naoqi_joint_states

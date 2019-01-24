@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2018-12-19 12:07:07,562: init_node, name[/rostopic_29095_1545217627543], pid[29095]
+[xmlrpc][INFO] 2018-12-19 12:07:07,563: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-19 12:07:07,563: Started XML-RPC server [http://NAOrobUSB001:40363/]
+[rospy.init][INFO] 2018-12-19 12:07:07,563: ROS Slave URI: [http://NAOrobUSB001:40363/]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:07:07,563: _ready: http://NAOrobUSB001:40363/
+[xmlrpc][INFO] 2018-12-19 12:07:07,563: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-12-19 12:07:07,563: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-12-19 12:07:07,663: registered with master
+[rospy.internal][INFO] 2018-12-19 12:07:20,213: topic[/behaviourName] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:08:54,105: topic[/behaviourName] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:09:01,577: topic[/behaviourName] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:12:44,206: topic[/behaviourName] removing connection to /nao_behav_ac
+[rospy.internal][INFO] 2018-12-19 12:13:13,707: topic[/behaviourName] adding connection to [/nao_behav_ac], count 0
+[rospy.internal][INFO] 2018-12-19 12:17:42,331: topic[/behaviourName] removing connection to /nao_behav_ac
+[rospy.core][INFO] 2018-12-19 12:19:48,198: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2018-12-19 12:19:48,200: signal-2
+[rospy.core][INFO] 2018-12-19 12:19:48,364: signal_shutdown [atexit]

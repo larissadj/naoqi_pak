@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2018-12-05 12:05:09,797: init_node, name[/rostopic_15524_1544007909777], pid[15524]
+[xmlrpc][INFO] 2018-12-05 12:05:09,797: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-12-05 12:05:09,798: Started XML-RPC server [http://NAOrobUSB001:39055/]
+[rospy.init][INFO] 2018-12-05 12:05:09,798: ROS Slave URI: [http://NAOrobUSB001:39055/]
+[rospy.impl.masterslave][INFO] 2018-12-05 12:05:09,798: _ready: http://NAOrobUSB001:39055/
+[rospy.registration][INFO] 2018-12-05 12:05:09,798: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-12-05 12:05:09,798: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-12-05 12:05:09,898: registered with master
+[rospy.internal][INFO] 2018-12-05 12:05:09,912: topic[/cmd_vel] adding connection to [/naoqi_moveto], count 0
+[rospy.internal][INFO] 2018-12-05 12:05:09,937: topic[/cmd_vel] adding connection to [/nao_walker], count 1
+[rospy.core][INFO] 2018-12-05 12:05:12,906: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-12-05 12:05:12,908: topic[/cmd_vel] removing connection to /naoqi_moveto
+[rospy.internal][INFO] 2018-12-05 12:05:12,908: topic[/cmd_vel] removing connection to /nao_walker
+[rospy.impl.masterslave][INFO] 2018-12-05 12:05:12,908: atexit

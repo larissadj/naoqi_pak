@@ -1,0 +1,6 @@
+[0m[ INFO] [1547728437.954804720]: Loading nodelet /pepper_robot/camera/depth_metric of type depth_image_proc/convert_metric to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1547728437.954853895]: /pepper_robot/camera/image -> /pepper_robot/camera/depth/image[0m
+[0m[ INFO] [1547728437.954880957]: /pepper_robot/camera/image_raw -> /pepper_robot/camera/depth/image_raw[0m
+[0m[ INFO] [1547728437.956168752]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1547728438.129860140]: waitForService: Service [/pepper_robot/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1547728464.615715061]: Unloading nodelet /pepper_robot/camera/depth_metric from manager camera_nodelet_manager[0m

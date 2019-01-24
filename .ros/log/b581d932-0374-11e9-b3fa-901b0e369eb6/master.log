@@ -1,0 +1,43 @@
+[rosmaster.main][INFO] 2018-12-19 10:59:01,265: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-12-19 10:59:01,265: Starting ROS Master Node
+[xmlrpc][INFO] 2018-12-19 10:59:01,266: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-12-19 10:59:01,266: Started XML-RPC server [http://NAOrobUSB001:11311/]
+[xmlrpc][INFO] 2018-12-19 10:59:01,266: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-12-19 10:59:01,266: Master initialized: port[11311], uri[http://NAOrobUSB001:11311/]
+[rosmaster.master][INFO] 2018-12-19 10:59:01,354: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-12-19 10:59:01,355: +PARAM [/roslaunch/uris/host_naorobusb001__35743] by /roslaunch
+[rosmaster.master][INFO] 2018-12-19 10:59:01,421: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-12-19 10:59:01,421: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-12-19 10:59:01,577: +SERVICE [/rosout/get_loggers] /rosout http://NAOrobUSB001:40435/
+[rosmaster.master][INFO] 2018-12-19 10:59:01,578: +SERVICE [/rosout/set_logger_level] /rosout http://NAOrobUSB001:40435/
+[rosmaster.master][INFO] 2018-12-19 10:59:01,580: +PUB [/rosout_agg] /rosout http://NAOrobUSB001:40435/
+[rosmaster.master][INFO] 2018-12-19 10:59:01,585: +SUB [/rosout] /rosout http://NAOrobUSB001:40435/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,192: +PUB [/rosout] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,199: +SERVICE [/nao_behaviors/get_loggers] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,200: +SERVICE [/nao_behaviors/set_logger_level] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,209: +SERVICE [/get_installed_behaviors] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,210: +PUB [/run_behavior/status] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,211: +PUB [/run_behavior/result] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,212: +PUB [/run_behavior/feedback] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,215: +SUB [/run_behavior/goal] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,216: +SUB [/run_behavior/cancel] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 10:59:02,267: publisherUpdate[/rosout] -> http://NAOrobUSB001:40435/ ['http://NAOrobUSB001:38821/']
+[rosmaster.master][INFO] 2018-12-19 10:59:02,268: publisherUpdate[/rosout] -> http://NAOrobUSB001:40435/ ['http://NAOrobUSB001:38821/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-19 11:00:22,904: -SUB [/run_behavior/cancel] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 11:00:22,904: -SUB [/run_behavior/goal] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 11:00:22,904: -PUB [/run_behavior/status] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 11:00:22,904: -PUB [/rosout] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 11:00:22,904: -PUB [/run_behavior/result] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 11:00:22,904: -PUB [/run_behavior/feedback] /nao_behaviors http://NAOrobUSB001:38821/
+[rosmaster.master][INFO] 2018-12-19 11:00:22,905: -SERVICE [/nao_behaviors/get_loggers] /nao_behaviors rosrpc://NAOrobUSB001:46863
+[rosmaster.master][INFO] 2018-12-19 11:00:22,905: -SERVICE [/get_installed_behaviors] /nao_behaviors rosrpc://NAOrobUSB001:46863
+[rosmaster.master][INFO] 2018-12-19 11:00:22,905: -SERVICE [/nao_behaviors/set_logger_level] /nao_behaviors rosrpc://NAOrobUSB001:46863
+[rosmaster.master][INFO] 2018-12-19 11:00:22,998: publisherUpdate[/rosout] -> http://NAOrobUSB001:40435/ []
+[rosmaster.master][INFO] 2018-12-19 11:00:22,999: publisherUpdate[/rosout] -> http://NAOrobUSB001:40435/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-12-19 11:00:23,199: -PUB [/rosout_agg] /rosout http://NAOrobUSB001:40435/
+[rosmaster.master][INFO] 2018-12-19 11:00:23,200: -SUB [/rosout] /rosout http://NAOrobUSB001:40435/
+[rosmaster.master][INFO] 2018-12-19 11:00:23,200: -SERVICE [/rosout/get_loggers] /rosout rosrpc://NAOrobUSB001:44625
+[rosmaster.master][INFO] 2018-12-19 11:00:23,201: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://NAOrobUSB001:44625
+[rosmaster.main][INFO] 2018-12-19 11:00:23,304: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-12-19 11:00:23,304: stopping master...
+[rospy.core][INFO] 2018-12-19 11:00:23,305: signal_shutdown [atexit]

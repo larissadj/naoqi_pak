@@ -1,0 +1,30 @@
+[0m[ INFO] [1545225293.864500655]: FootstepPlanner heuristic: 2D path euclidean distance with step costs[0m
+[0m[ INFO] [1545225293.865953494]: Planning with ARAPlanner[0m
+[0m[ INFO] [1545225293.865977447]: Search direction: backward planning[0m
+[0m[ INFO] [1545225294.042280862]: GridMap2D created with 400 x 400 cells at 0.010000 resolution.[0m
+[0m[ INFO] [1545225556.813006317]: Goal pose set to (3.100000 3.300000 0.000000)[0m
+[0m[ INFO] [1545225557.420072110]: Robot standing at (-0.001223, 0.050000, 0.000000, 1) (-0.019142, -0.084049, -0.265383, 0).[0m
+[0m[ INFO] [1545225557.420119191]: Resetting planner[0m
+[0m[ INFO] [1545225557.453667112]: Updating the heuristic values.[0m
+[0m[ INFO] [1545225557.479532240]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545225564.420522326]: Solution of size 118 found after 6.940949 s[0m
+[0m[ INFO] [1545225564.420599363]: Expanded states: 473233 total / 473117 new[0m
+[0m[ INFO] [1545225564.420611225]: Final eps: 2.200000[0m
+[0m[ INFO] [1545225564.420623990]: Path cost: 14.085000 (14085)
+[0m
+[0m[ INFO] [1545225564.426338095]: Start walking towards the goal.[0m
+[0m[ INFO] [1545225567.740230733]: Footstep cannot be performed. Replanning necessary.[0m
+[0m[ INFO] [1545225568.306387243]: Robot standing at (0.057001, 0.057427, 0.262363, 1) (-0.001109, -0.050528, -0.003020, 0).[0m
+[0m[ INFO] [1545225568.306422604]: Resetting planner[0m
+[0m[ INFO] [1545225568.414690869]: Updating the heuristic values.[0m
+[0m[ INFO] [1545225568.445617437]: Start planning (max time: 7.000000, initial eps: 8.000000 (8.000000))
+[0m
+[0m[ INFO] [1545225575.383239538]: Solution of size 117 found after 6.937572 s[0m
+[0m[ INFO] [1545225575.383300954]: Expanded states: 443252 total / 443137 new[0m
+[0m[ INFO] [1545225575.383310439]: Final eps: 2.400000[0m
+[0m[ INFO] [1545225575.383316924]: Path cost: 14.346000 (14346)
+[0m
+[0m[ INFO] [1545225575.389117313]: Start walking towards the goal.[0m
+[0m[ INFO] [1545225807.518999748]: Succeeded walking to the goal.
+[0m

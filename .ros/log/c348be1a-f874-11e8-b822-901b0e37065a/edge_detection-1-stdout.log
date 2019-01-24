@@ -1,0 +1,2 @@
+[0m[ INFO] [1544004298.995880077]: Initializing nodelet with 1 worker threads.[0m
+[33m[ WARN] [1544004304.063998241]: '/edge_detection' subscribes topics only with child subscribers.[0m
